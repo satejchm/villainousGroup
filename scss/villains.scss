@@ -1,17 +1,39 @@
-.villains-wrapper {
+.default-container {
   width: 90%;
-  height: 90%;
+  height: auto;
   margin: 0 auto;
-  //   margin-top: 50px;
-  background-color: blueviolet;
+  margin-bottom: 50px;
+  background-color: $brown;
 
-  .v-image {
-    width: 216px;
-    height: 300px;
-    background-color: coral;
-    margin-bottom: 15px;
+  .top-info {
+    width: 90%;
+    margin: auto;
+    padding-top: 45px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    // background-color: darkcyan;
+    .search {
+      width: 50%;
+      height: 90px;
+      background-color: #ccc;
+    }
+    h1 {
+      margin: auto 0;
+    }
+  }
+
+  .villains-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .v-image {
+      width: 216px;
+      height: 300px;
+      background-color: coral;
+      margin: 55px;
+    }
   }
 }
