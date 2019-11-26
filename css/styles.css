@@ -259,3 +259,73 @@ footer {
     .evil-queen-container .how-to-play-text p {
       color: white;
       font-size: 125%; }
+
+.frequently-asked-container {
+  min-height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: #261712;
+  padding-bottom: 50px; }
+  .frequently-asked-container .top-info {
+    margin: 0 auto;
+    height: 80px;
+    width: 95%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-left: 30px; }
+    .frequently-asked-container .top-info .searchBar {
+      width: 50%;
+      height: 80px;
+      background-color: #c3bebd;
+      font-size: 30px; }
+      .frequently-asked-container .top-info .searchBar .eyeglassImage {
+        -webkit-box-pack: right;
+        -ms-flex-pack: right;
+        justify-content: right;
+        width: 50px;
+        height: 80px; }
+    .frequently-asked-container .top-info h1 {
+      font-size: 200%; }
+  .frequently-asked-container .question-wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .frequently-asked-container .question-wrapper .question {
+      width: 50%;
+      min-height: 100px;
+      margin: 60px;
+      margin-bottom: 20px; }
+      .frequently-asked-container .question-wrapper .question h2 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 250%;
+        font-family: helvetica; }
+      .frequently-asked-container .question-wrapper .question p {
+        font-size: 25px;
+        font-family: helvetica; }

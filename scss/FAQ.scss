@@ -1,0 +1,68 @@
+.frequently-asked-container {
+  min-height: 100%;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-color: $brown;
+  padding-bottom: 50px;
+
+  .top-info {
+    margin: 0 auto;
+    height: 80px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    //background-color: black;
+
+    .searchBar {
+      width: 50%;
+      height: 80px;
+      background-color: $light-gray;
+      font-size: 30px;
+
+      .eyeglassImage {
+        justify-content: right;
+        width: 50px;
+        height: 80px;
+      }
+    }
+
+    h1 {
+      font-size: 200%;
+    }
+  }
+
+  .question-wrapper {
+    margin: 0 auto;
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .question {
+      width: 50%;
+      min-height: 100px;
+      margin: 60px;
+      margin-bottom: 20px;
+
+      h2 {
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 250%;
+        font-family: $helvetica;
+      }
+
+      p {
+        font-size: 25px;
+        font-family: $helvetica;
+      }
+    }
+  }
+}

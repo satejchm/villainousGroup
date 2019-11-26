@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Villians</title>
-    <link rel="icon" href="imgs/Logo.png">
+    <link rel="icon" href="imgs/Logo.png" />
     <link rel="stylesheet" href="css/styles.css" />
-    
   </head>
   <body>
     <nav>
@@ -16,7 +15,7 @@
       </a>
       <a href="index.html">Home</a>
       <a href="villains.html">Villains</a>
-      <a href="#">FAQ</a>
+      <a href="FAQ.html">FAQ</a>
     </nav>
     <section class="default-container">
       <div class="top-info">
@@ -24,16 +23,16 @@
         <!-- <div class="search">search...</div> -->
       </div>
       <div class="villains-wrapper">
-            <router-link class="card v-image" v-for="villain in Villains">
-              <div class="card-inner">
-              <div class="card-front">
-                <img v-bind:src="villain.img" alt="Villain img">
-              </div>
-              <div class="card-back">
-                <img v-bind:src="villain.imgBack" alt="Villain back">
-              </div>
-              </div>
-            </router-link>
+        <router-link class="card v-image" v-for="villain in Villains">
+          <div class="card-inner">
+            <div class="card-front">
+              <img v-bind:src="villain.img" alt="Villain img" />
+            </div>
+            <div class="card-back">
+              <img v-bind:src="villain.imgBack" alt="Villain back" />
+            </div>
+          </div>
+        </router-link>
       </div>
     </section>
     <footer>
