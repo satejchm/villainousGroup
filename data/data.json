@@ -1,0 +1,357 @@
+{
+    "rules": {
+        "setup": [
+            "Each player chooses a Villain and takes the corresponding Board,Villain Mover, Villain deck, Fate deck, and Villain Guide, as well as a Reference Card.",
+            "Place your Board in front of you. Each Board contains four locations.Place your Villain Mover on the left-most location.",
+            "If the right-most location has a lock symbol in the corner,place a Lock Token on that location.",
+            "Shuffle your Villain deck and place it face down to the left of your Board.Leave room for a discard pile.",
+            "Draw a starting hand off our cards from your Villain deck. You may look at your cards, but keep them secret from the other players.",
+            "Shuffle your Fate deck and place it face down to the right of yourBoard. Leave room for a discard pile.",
+            "Place the Power Tokens in the Cauldron and place it within reach ofall players.",
+            "Choose a player to go first. The first player does not start with any Power.The second player takes one Power from the Cauldron. The third and fourth players each take two Power. The fifth and sixth players each take three Power."
+        ]
+    },
+
+    "Villains":[
+    {
+    "name": "Yzma",
+    "img":"imgs/villains/Yzma.png",
+    "imgBack":"imgs/backs/Yzma_Villain_Back.png",
+    "set": "Evil Comes Prepared",
+    "mainColor": "#80426d",
+    "objective": "Defeat Kuzco using Kronk",
+    "complexity":5,
+    "quote": "Our moment of triumph approaches!",
+    "strengths": [
+        {
+            "strengthName":"Ability to go through Fate deck quickly"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName":"Ability to have Fate completely reshuffled and redealt"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName": "Cull through Fate decks to get a look at cards before opponent Fates you"
+        }
+    ]
+},
+{
+    "name": "Ratigan",
+    "img":"imgs/villains/Ratigan.png",
+    "imgBack":"imgs/backs/Ratigan_Villain_Back.png",
+    "set": "Evil Comes Prepared",
+    "mainColor": "#66625f",
+    "objective": "Start your turn with The Robot Queen at Buckingham Palace. If The Robot Queen is discarded from your realm, then you must Defeat Basil",
+    "complexity":3,
+    "quote": "Oh this is wicked. So delightfully wicked!",
+    "strengths": [
+        {
+            "strengthName":"Dual forms of winning"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName":"N/A"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName": "Get all of the gears out to get the queen on the board quickly, have the blimp on hand"
+        }
+    ]
+},
+{
+    "name": "Hades",
+    "img":"imgs/villains/Hades.png",
+    "imgBack":"imgs/backs/Hades_Villain_Back.png",
+    "set": "Evil to the Core",
+    "mainColor": "#14526d",
+    "objective": "Start your turn with three Titans at Mount Olympus",
+    "complexity":3,
+    "quote": "Everybody's got a weakness.",
+    "strengths": [
+        {
+            "strengthName":"Many allies for fighting"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName":"Many cards that set titans back (win condition prevention)"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName": "Move titans as quickly as possible"
+        }
+    ]
+},
+{
+    "name": "Evil Queen",
+    "img":"imgs/villains/Evil_Queen.png",
+    "imgBack":"imgs/backs/Evil_Queen_Villain_Back.png",
+    "set": "Evil to the Core",
+    "mainColor": "#614a87",
+    "objective": "Defeat Snow White",
+    "complexity":2,
+    "quote": "I'll be the fairest in the land!",
+    "strengths": [
+        {
+            "strengthName": "Easy ways of killing enemies via 'Take a Bite'."
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "N/A"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Hoard as much poison as possible"
+        }
+    ]
+},
+{
+    "name": "Dr Facilier",
+    "img":"imgs/villains/Dr_Facilier.png",
+    "imgBack":"imgs/backs/Dr_Facilier_Villain_Back.png",
+    "set": "Evil to the Core",
+    "mainColor": "#a81b69",
+    "objective": "Control the Talisman and successfully rule New Orleans",
+    "complexity":5,
+    "quote": "I got friends on the other side.",
+    "strengths": [
+        {
+            "strengthName": "Allies have the ability to move heroes around"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Talisman (needed for win condition) is attached to any hero with a stregnth of 2 or less when played"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Play allies/items out who have the ability to move Dr. Facilier an extra step or take actions at adjacent locations"
+        }
+    ]
+},
+{
+    "name": "Maleficent",
+    "img":"imgs/villains/Maleficent.png",
+    "imgBack":"imgs/backs/Maleficent_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#374d36",
+    "objective": "Start your turn with a Curse at eah location",
+    "complexity":2,
+    "quote": "Now go with a curse and serve me well!",
+    "strengths": [
+        {
+            "strengthName": "Multiples of curses to play at different locations"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "One curse, 'Green Fire', is discarded when Maleficent moves to that location "
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Get your crow out as soon as possible to take as many extra actions as possible at the beginning of the game"
+        }
+    ]
+},
+{
+    "name": "Ursula",
+    "img":"imgs/villains/Ursula.png",
+    "imgBack":"imgs/backs/Ursula_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#462b46",
+    "objective": "Start your turn with at least 15 strength in your Succession pile",
+    "complexity":5,
+    "quote": "The sea and all its spoils bow to my power!",
+    "strengths": [
+        {
+            "strengthName": "Using binding contracts make it easier to vanquish heroes with high power."
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Allies are not used for vanquishing, instead- binding contracts are used."
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Get The trident out asap so that you have time to vanquish King Triton"
+        }
+    ]
+},
+{
+    "name": "Jafar",
+    "img":"imgs/villains/Jafar.png",
+    "imgBack":"imgs/backs/Jafar_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#1a1812",
+    "objective": "Start your turn with the Magic Lamp at Sultan's Palace and Genie under your control",
+    "complexity":4,
+    "quote": "Finally, you will bow to me!",
+    "strengths": [
+        {
+            "strengthName": "Multiple allies"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Many things to complete to earn win condition."
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"N/A"
+        }
+    ]
+},
+{
+    "name": "Prince John",
+    "img":"imgs/villains/Prince_John.png",
+    "imgBack":"imgs/backs/Prince_John_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#a1510f",
+    "objective": "Start your turn with at least 20 power",
+    "complexity":1,
+    "quote": "This crown gives me a felling of power!",
+    "strengths": [
+        {
+            "strengthName": "Many allies to put on board and defend"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Allies cost large amounts of power to play."
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Put out allies for defense at the beginning of the round."
+        }
+    ]
+},
+{
+    "name": "Queen of Hearts",
+    "img":"imgs/villains/Queen_of_Hearts.png",
+    "imgBack":"imgs/backs/Queen_of_Hearts_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#9d2c1c",
+    "objective": "Have a Wicket at each location and successfully take a shot",
+    "complexity":3,
+    "quote": "If I lose my temper, you lose your head.",
+    "strengths": [
+        {
+            "strengthName": "Multiple ways to earn and keep power."
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Limited number of allies that are not needed for wickets (win condition)"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Play out non-wicket allies as soon as possible."
+        }
+    ]
+},
+{
+    "name": "Captain Hook",
+    "img":"imgs/villains/Captain_Hook.png",
+    "imgBack":"imgs/backs/Captain_Hook_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#713242",
+    "objective": "Defeat Peter Pan at the Jolly Roger",
+    "complexity":1,
+    "quote": "Double the power and shorten the fuse!",
+    "strengths": [
+        {
+            "strengthName": "Many allies to be played on the board"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "N/A"
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Sift through Fate deck and get Peter Pan out as soon as possible."
+        }
+    ]
+}
+],
+"FAQ": [
+    {
+        "question": "What if a card conflicts with the Instructions? ",
+        "answer": "If the Ability on a card violates a rule in the Instructions, the card takes precedence. "
+    },
+    {
+        "question": "If I reveal a Fate card that cannot be played, do I get to reveal a new one? ",
+        "answer": "No. If a Fate card cannot be played (for example, you revealed an Item and there is no Hero in the Realm to attach itto), the card may not be played and must be discarded. If you are taking a Fate action and both cards revealed cannotbe played, you must discard both of them without effect. Fate favored your opponent this time!"
+    },
+    {
+        "question": "If I defeat a Hero during my turn and action symbols are uncovered at my Villain’s location, may I perform thoseactions on this turn? ",
+        "answer": "Yes. If an action symbol at your location is uncovered during your turn, you may immediately perform the action.Likewise, if an action symbol is covered before you perform that action on your turn, you may not perform the action."
+    },
+    {
+        "question": "If multiple Heroes are at one location, do I have to defeat them in a certain order? ",
+        "answer": "No. If multiple Heroes are at a location, you may choose which Hero to defeat."
+    },
+    {
+        "question": "I have a card that will allow me to defeat a Hero with a Strength of 4 or less. Does this refer to the Strength printed onthe Hero card, or do I factor in other card Abilities? ",
+        "answer": "Whenever referring to a Hero’s (or Ally’s) Strength, always consider all other card Abilities that are in effect in the Realm.For example, if a Hero has a Strength of 5 printed on their card, but another card in the Realm gives them -1 Strength,then that Hero’s Strength is considered to be 4 for all purposes. "
+    }, {
+        "question": "If a Hero’s Strength is reduced to 0 by other card Abilities, can I just remove that Hero from the Realm? ",
+        "answer": "No. You must still use a Vanquish action or card Ability to defeat the Hero. However, if you use a Vanquish action, noAllies need to be discarded. You can defeat the Hero even if you have no Allies at the Hero’s location."
+    },
+    {
+        "question": "If I use a card’s Activated Ability, do I then discard it?",
+        "answer": "No. The card remains in your Realm. There is no limit to the number of times you may activate a card’s Ability, providedyou use an Activate action and pay the card’s Activation Cost, if any, each time. "
+    },
+    {
+        "question": "Can I play or move a Hero to the bottom of the Board? ",
+        "answer": "No. Fate cards are always played to and moved across the top of the Board, unless a card Ability specifically instructsyou to move a Fate card to the bottom of the Board."
+    },
+    {
+        "question": "If I can’t do what a card says, can I still play it? ",
+        "answer": "No. If you cannot do what the card says, then you cannot play it. However, if the cardsays “may,” the text that follows is optional. In this case, you may play the card andthen choose whether or not to do that part of its Ability. If you cannot play a card,you can discard it by performing the Discard Cards action. "
+    },
+    {
+        "question": "Is there a hand limit? ",
+        "answer": "No. There is no limit to the number of cards in your hand at any time, but you willonly draw cards at the end of your turn if you have fewer than four"
+    },
+    {
+        "question": "What happens if I need to take Power, but the Supply is empty?",
+        "answer": "Power is considered infinite. You can grab other tokens or coins to use asadditional Power"
+    },
+    {
+        "question": "Can I look through my discard piles? What about an opponent’sdiscard piles? ",
+        "answer": "Yes. All cards that are face up are public, and any player may look through anydiscard pile at any time."
+    },
+    {
+        "question": "Can I play or move a Hero to the bottom of the Board? ",
+        "answer": "No. Fate cards are always played to and moved across the top of the Board, unless acard Ability specifically instructs you to move a Fate card to the bottom of the Board."
+    },
+    {
+        "question": "Can I play a Condition at any time during another player’s turn, aslong as the requirement was met at some point during that turn? ",
+        "answer": "No. A Condition card can only be played when the requirement is met. For example,if the requirement is that another player defeats a Hero with a Strength of 3 ormore, you must play your Condition card when that Hero is defeated. You may notwait until later in the turn. However, playing a Condition is optional. So in the sameexample, you may choose not to play your Condition, and instead play it later,when a different player defeats a Hero or the same player defeats another Hero"
+    },
+    {
+        "question": "Before I can win, am I required to defeat all the Heroes in my Realm,or have my Villain Mover at a specific location? ",
+        "answer": "No. Only your Objective needs to be achieved in order to win. Your Villain Guidedescribes your Objective and how it is achieved. Some Villains are not required todefeat any Heroes, although leaving Heroes in your realm may slow your progresstoward victory"
+    },
+    {
+        "question": "Which Villain is the easiest to win with? ",
+        "answer": "Each Villain, when played with skill and cunning, is equally prepared to achievetheir Objective. However, the strategies utilized by each Villain vary in complexity. "
+    }
+]
+}

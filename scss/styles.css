@@ -96,7 +96,7 @@ footer h3 {
 }
 
 .default-container {
-  height: 100%;
+  min-height: 100%;
   width: 90%;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -104,6 +104,7 @@ footer h3 {
 }
 
 .default-container .top-info {
+  height: 80px;
   width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,18 +121,8 @@ footer h3 {
           justify-content: space-between;
 }
 
-.default-container .top-info .search {
-  width: 50%;
-  height: 90px;
-  background-color: #ccc;
-}
-
-.default-container .top-info h1 {
-  margin: auto 0;
-}
-
 .default-container .villains-wrapper {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -150,11 +141,8 @@ footer h3 {
 .default-container .villains-wrapper .v-image {
   width: 216px;
   height: 300px;
-  /* background-color: coral; */
-  margin: 55px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin: 60px;
+  margin-bottom: 20px;
 }
 
 #learn-more {
@@ -178,45 +166,48 @@ footer h3 {
 #learn-more h1 {
   margin: auto;
 }
-/*# sourceMappingURL=styles.css.map */
 
-.card{
-  background:transparent;
-  width:216px;
-  height:300px;
-  perspective:1000px;
-  cursor:pointer;
+.card {
+  background: transparent;
+  width: 216px;
+  height: 300px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  cursor: pointer;
 }
 
-.card-inner{
+.card-inner {
   position: relative;
-  width:100%;
-  height:100%;
-  transition:transform 0.8s;
-  transform-style: preserve-3d;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
 
-.card:hover .card-inner{
-  transform: rotateY(180deg);
+.card:hover .card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
-.card-front, .card-back{
+.card-front, .card-back {
   position: absolute;
-  width:100%;
-  height:100%;
-  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
-.card-front{
-  background-color:black;
+.card-front {
+  background-color: black;
 }
 
-.card-back{
-  background-color:cornflowerblue;
-  transform:rotateY(180deg);
+.card-back {
+  background-color: cornflowerblue;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
-
-.card-back img{
-  height:300px;
-  width:216px;
-}
+/*# sourceMappingURL=styles.css.map */
