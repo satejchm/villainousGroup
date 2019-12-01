@@ -7,7 +7,8 @@ new Vue({
     },
 
     data:{
-        Villains:[ ]
+        Villains:[ ],
+        message: "message"
     },
 
     methods:{

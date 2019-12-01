@@ -15,6 +15,7 @@
     "Villains":[
     {
     "name": "Yzma",
+    "link":"yzma.html",
     "img":"imgs/villains/Yzma.png",
     "imgBack":"imgs/backs/Yzma_Villain_Back.png",
     "set": "Evil Comes Prepared",
@@ -40,6 +41,7 @@
 },
 {
     "name": "Ratigan",
+    "link":"ratigan.html",
     "img":"imgs/villains/Ratigan.png",
     "imgBack":"imgs/backs/Ratigan_Villain_Back.png",
     "set": "Evil Comes Prepared",
@@ -65,6 +67,7 @@
 },
 {
     "name": "Hades",
+    "link":"hades.html",
     "img":"imgs/villains/Hades.png",
     "imgBack":"imgs/backs/Hades_Villain_Back.png",
     "set": "Evil to the Core",
@@ -90,8 +93,11 @@
 },
 {
     "name": "Evil Queen",
+    "link":"evilQueen.html",
     "img":"imgs/villains/Evil_Queen.png",
     "imgBack":"imgs/backs/Evil_Queen_Villain_Back.png",
+    "mover":"imgs/movers/EvilQueenmover.png",
+    "board":"imgs/boards/Evilqueenrealm.jpg",
     "set": "Evil to the Core",
     "mainColor": "#614a87",
     "objective": "Defeat Snow White",
@@ -114,7 +120,8 @@
     ]
 },
 {
-    "name": "Dr Facilier",
+    "name": "Dr. Facilier",
+    "link":"drFacilier.html",
     "img":"imgs/villains/Dr_Facilier.png",
     "imgBack":"imgs/backs/Dr_Facilier_Villain_Back.png",
     "set": "Evil to the Core",
@@ -140,6 +147,7 @@
 },
 {
     "name": "Maleficent",
+    "link":"maleficent.html",
     "img":"imgs/villains/Maleficent.png",
     "imgBack":"imgs/backs/Maleficent_Villain_Back.png",
     "set": "The Worst Takes It All",
@@ -165,6 +173,7 @@
 },
 {
     "name": "Ursula",
+    "link":"ursula.html",
     "img":"imgs/villains/Ursula.png",
     "imgBack":"imgs/backs/Ursula_Villain_Back.png",
     "set": "The Worst Takes It All",
@@ -190,6 +199,7 @@
 },
 {
     "name": "Jafar",
+    "link":"jafar.html",
     "img":"imgs/villains/Jafar.png",
     "imgBack":"imgs/backs/Jafar_Villain_Back.png",
     "set": "The Worst Takes It All",
@@ -215,6 +225,7 @@
 },
 {
     "name": "Prince John",
+    "link":"princeJohn.html",
     "img":"imgs/villains/Prince_John.png",
     "imgBack":"imgs/backs/Prince_John_Villain_Back.png",
     "set": "The Worst Takes It All",
@@ -240,6 +251,7 @@
 },
 {
     "name": "Queen of Hearts",
+    "link":"queenOfHearts.html",
     "img":"imgs/villains/Queen_of_Hearts.png",
     "imgBack":"imgs/backs/Queen_of_Hearts_Villain_Back.png",
     "set": "The Worst Takes It All",
@@ -265,6 +277,7 @@
 },
 {
     "name": "Captain Hook",
+    "link":"captainHook.html",
     "img":"imgs/villains/Captain_Hook.png",
     "imgBack":"imgs/backs/Captain_Hook_Villain_Back.png",
     "set": "The Worst Takes It All",

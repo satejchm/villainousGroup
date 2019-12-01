@@ -23,16 +23,18 @@
         <!-- <div class="search">search...</div> -->
       </div>
       <div class="villains-wrapper">
-        <router-link class="card v-image" v-for="villain in Villains">
+        <div class="card v-image" v-for="villain in Villains">
           <div class="card-inner">
+            <a v-bind:href="villain.link">
             <div class="card-front">
               <img v-bind:src="villain.img" alt="Villain img" />
             </div>
             <div class="card-back">
               <img v-bind:src="villain.imgBack" alt="Villain back" />
             </div>
+          </a>
           </div>
-        </router-link>
+        </div>
       </div>
     </section>
     <footer>

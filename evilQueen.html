@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Evil Queen</title>
+    <link rel="icon" href="imgs/Logo.png" />
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
@@ -16,22 +17,30 @@
       <a href="villains.html">Villains</a>
       <a href="#">FAQ</a>
     </nav>
-    <section class="evil-queen-container">
+    <section style="background-color: #614a87" class="villains-wrapper">
       <div class="top-info">
-        <h1>Evil Queen</h1>
+        <h1 class="villainName">{{ Villains[3].name }}</h1>
       </div>
 
 
       <div class="queen-info-wrapper">
-            <div class="card-image"></div>
-            <div class="card-moves-image"></div>
+            <div class="card-image">
+              <img v-bind:src="Villains[3].img" alt="card front">
+            </div>
+            <div class="card-moves-image">
+              <img class="boardImg" v-bind:src="Villains[3].board" alt="board">
+            </div>
       </div>
 
       <div class="how-to-play-wrapper">
-        <div class="card-image"></div>
+        <div class="card-image">
+          <img class="moverImg" v-bind:src="Villains[3].mover" alt="mover">
+        </div>
         <div class="how-to-play-text">
-          <h1>HOW TO PLAY THIS VILLAIN</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ratione dolore deleniti quia laudantium illum nobis delectus atque magnam, sit veniam nesciunt. Quo, porro. Itaque ad aliquam porro quod alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sit quaerat atque. Nulla mollitia sequi sed corporis optio ipsam, quas aspernatur reprehenderit voluptatibus natus, modi, deleniti voluptatum asperiores debitis illo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, omnis quod quae velit, dolorum sint libero ullam placeat eius, eligendi quidem nemo quia doloribus tempora blanditiis! Hic optio quisquam totam.</p>
+          <h1 class="villainText">HOW TO PLAY THIS VILLAIN</h1>
+          <li>{{Villains[3].strategies[0].stratName}}</li>
+          <li><b>Strengths:</b> {{Villains[3].strengths[0].strengthName}}</li>
+          <li><b>Weaknesses:</b> {{Villains[3].weaknesses[0].weaknessName}}</li>
         </div>
   </div>
 
@@ -78,6 +87,8 @@
       <h3>Copywrite Stuffs</h3>
     </footer> 
 
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
