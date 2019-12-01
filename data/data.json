@@ -18,6 +18,8 @@
     "link":"yzma.html",
     "img":"imgs/villains/Yzma.png",
     "imgBack":"imgs/backs/Yzma_Villain_Back.png",
+    "mover":"imgs/movers/Yzmamover.png",
+    "board":"imgs/boards/Yzmarealm.jpg",
     "set": "Evil Comes Prepared",
     "mainColor": "#80426d",
     "objective": "Defeat Kuzco using Kronk",
@@ -37,6 +39,35 @@
         {
             "stratName": "Cull through Fate decks to get a look at cards before opponent Fates you"
         }
+    ],
+    "fateCards":[
+        {"fateImg":"imgs/cards/yzma/fate/Beware_the_Groove.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Bucky.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Chaca.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Chicha.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Kuzco.png"},
+        {"fateImg":"imgs/cards/yzma/fate/On_the_Run.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Pacha.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Peasant.png"},
+        {"fateImg":"imgs/cards/yzma/fate/The_Path_of_Righteousness.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Tipo.png"},
+        {"fateImg":"imgs/cards/yzma/fate/Wrong_Lever.png"}
+    ],
+    "villainCards":[
+        {"villainImg":"imgs/cards/yzma/villain/A_Cruel_Irony.png"},
+        {"villainImg":"imgs/cards/yzma/villain/After_Them!.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Beauty_Sleep.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Dagger.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Eavesdrop.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Fake_Funeral.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Ferocity.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Finish_the_Job.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Imperial_Guards.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Kronk.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Right-Hand_Man.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Smash_It_With_a_Hammer.png"},
+        {"villainImg":"imgs/cards/yzma/villain/Superiority.png"},
+        {"villainImg":"imgs/cards/yzma/villain/The_Path_That_Rocks.png"}
     ]
 },
 {
@@ -44,6 +75,8 @@
     "link":"ratigan.html",
     "img":"imgs/villains/Ratigan.png",
     "imgBack":"imgs/backs/Ratigan_Villain_Back.png",
+    "mover":"imgs/movers/Ratiganmover.png",
+    "board":"imgs/boards/Ratiganrealm.jpg",
     "set": "Evil Comes Prepared",
     "mainColor": "#66625f",
     "objective": "Start your turn with The Robot Queen at Buckingham Palace. If The Robot Queen is discarded from your realm, then you must Defeat Basil",
@@ -63,6 +96,38 @@
         {
             "stratName": "Get all of the gears out to get the queen on the board quickly, have the blimp on hand"
         }
+    ],
+    "fateCards":[
+        {"fateImg":"imgs/cards/ratigan/fate/Basil.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Call_for_Help.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Dawson.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Flaversham.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Makeshift_Balloon.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Mrs_Judson.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Olivia.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Queen's_Guards.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Sabotage.png"},
+        {"fateImg":"imgs/cards/ratigan/fate/The_Mouse_Queen .png"},
+        {"fateImg":"imgs/cards/ratigan/fate/Toby_(Ratigan).png"}
+    ],
+    "villainCards":[
+        {"villainImg":"imgs/cards/ratigan/villain/Airship.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Bartholomew.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Bell.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Capture.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Devious.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Extravagant.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Felicia.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Fidget.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Fidget's_List.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Gears.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Greatest_Criminal_Mind.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Marvelous_Trap.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Royal_Robes.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Ruffians.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/The_Robot_Queen.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Tools.png"},
+        {"villainImg":"imgs/cards/ratigan/villain/Uniform.png"}
     ]
 },
 {
@@ -70,6 +135,8 @@
     "link":"hades.html",
     "img":"imgs/villains/Hades.png",
     "imgBack":"imgs/backs/Hades_Villain_Back.png",
+    "mover":"imgs/movers/Hadesmover.png",
+    "board":"imgs/boards/Hadesrealm.jpg",
     "set": "Evil to the Core",
     "mainColor": "#14526d",
     "objective": "Start your turn with three Titans at Mount Olympus",
@@ -89,6 +156,40 @@
         {
             "stratName": "Move titans as quickly as possible"
         }
+    ],
+    "fateCards":[
+        {"fateImg":"imgs/cards/hades/fate/Go_the_Distance.png"},
+        {"fateImg":"imgs/cards/hades/fate/Hera.png"},
+        {"fateImg":"imgs/cards/hades/fate/Hercules.png"},
+        {"fateImg":"imgs/cards/hades/fate/Hermes.png"},
+        {"fateImg":"imgs/cards/hades/fate/Lightning_Bolt.png"},
+        {"fateImg":"imgs/cards/hades/fate/Medallion.png"},
+        {"fateImg":"imgs/cards/hades/fate/Megara.png"},
+        {"fateImg":"imgs/cards/hades/fate/Pegasus.png"},
+        {"fateImg":"imgs/cards/hades/fate/Phil.png"},
+        {"fateImg":"imgs/cards/hades/fate/The_Gospel_Truth.png"},
+        {"fateImg":"imgs/cards/hades/fate/Zeus.png"}
+    ],
+    "villainCards":[
+        {"villainImg":"imgs/cards/hades/villain/Achilles_Heel.png"},
+        {"villainImg":"imgs/cards/hades/villain/Arges.png"},
+        {"villainImg":"imgs/cards/hades/villain/Cerberus.png"},
+        {"villainImg":"imgs/cards/hades/villain/Chariot.png"},
+        {"villainImg":"imgs/cards/hades/villain/Eye_of_the_Fates.png"},
+        {"villainImg":"imgs/cards/hades/villain/Get_ready_to_Rumble.png"},
+        {"villainImg":"imgs/cards/hades/villain/Hydra.png"},
+        {"villainImg":"imgs/cards/hades/villain/Hydros.png"},
+        {"villainImg":"imgs/cards/hades/villain/I_Rule.png"},
+        {"villainImg":"imgs/cards/hades/villain/Lythos.png"},
+        {"villainImg":"imgs/cards/hades/villain/Mortality_Potion.png"},
+        {"villainImg":"imgs/cards/hades/villain/Nessus.png"},
+        {"villainImg":"imgs/cards/hades/villain/Pain.png"},
+        {"villainImg":"imgs/cards/hades/villain/Panic.png"},
+        {"villainImg":"imgs/cards/hades/villain/Planets_Align.png"},
+        {"villainImg":"imgs/cards/hades/villain/Pyros.png"},
+        {"villainImg":"imgs/cards/hades/villain/Rage.png"},
+        {"villainImg":"imgs/cards/hades/villain/Ruthless.png"},
+        {"villainImg":"imgs/cards/hades/villain/Stratos.png"}
     ]
 },
 {
@@ -117,6 +218,38 @@
         {
             "stratName":"Hoard as much poison as possible"
         }
+    ],
+    "fateCards":[
+        {   "fateImg":"imgs/cards/evilQueen/fate/Bashful.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Doc.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Dopey.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Grumpy.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Happy.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Love's_First_Kiss.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Pickaxe.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Sleepy.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Sneezy.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Snow_White.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Wishing_Well.png" },
+        {   "fateImg":"imgs/cards/evilQueen/fate/Woodland_Creatures.png" }
+        
+    ],
+    "villainCards":[
+        {"villainImg":"imgs/cards/evilQueen/villain/Black_Magic.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Black_of_Night.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Huntsman.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/I'll_Fix_Ya.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Jealousy.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Magic_Mirror.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Magic_Tomes.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Mummy_Dust.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Old_Hag's_Cackle.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Scream_of_Fright.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Take_a_Bite.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/The_Box.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Throne.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Thunderbolt.png"},
+        {"villainImg":"imgs/cards/evilQueen/villain/Vanity.png"} 
     ]
 },
 {
@@ -298,6 +431,32 @@
     "strategies": [
         {
             "stratName":"Sift through Fate deck and get Peter Pan out as soon as possible."
+        }
+    ]
+},
+{
+    "name": "Scar",
+    "link":"scar.html",
+    "img":"imgs/villains/Scar.png",
+    "imgBack":"imgs/backs/Scar_Villain_Back.png",
+    "set": "The Worst Takes It All",
+    "mainColor": "#904A36",
+    "objective": "Start your turn with 15 attack power (attack of heroes) in the succession pile.",
+    "complexity":8,
+    "quote": "Long live the king!",
+    "strengths": [
+        {
+            "strengthName": "Multiples of allies to play at different locations"
+        }
+    ],
+    "weaknesses": [
+        {
+            "weaknessName": "Must fate multiple times to have a chance at winning against one on one battles. "
+        }
+    ],
+    "strategies": [
+        {
+            "stratName":"Get Zazu out and attach the stick to him so that you may use Zazu to your advantage and keep the stick from others fating you."
         }
     ]
 }

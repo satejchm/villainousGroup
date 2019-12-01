@@ -17,32 +17,32 @@
       <a href="villains.html">Villains</a>
       <a href="#">FAQ</a>
     </nav>
-    <section style="background-color: #614a87" class="villains-wrapper">
+    <section style="background-color: #66625f" class="villains-wrapper">
       <div class="top-info">
-        <h1 class="villainName">{{ Villains[3].name }}</h1>
+        <h1 class="villainName">{{ Villains[1].name }}</h1>
       </div>
 
 
       <div class="queen-info-wrapper">
             <div class="card-image">
-              <img v-bind:src="Villains[3].img" alt="card front">
+              <img v-bind:src="Villains[1].img" alt="card front">
             </div>
             <div class="card-moves-image">
-              <img class="boardImg" v-bind:src="Villains[3].board" alt="board">
+              <img class="boardImg" v-bind:src="Villains[1].board" alt="board">
             </div>
       </div>
 
       <div class="how-to-play-wrapper">
         <div class="card-image">
-          <img class="moverImg" v-bind:src="Villains[3].mover" alt="mover">
+          <img class="moverImg" v-bind:src="Villains[1].mover" alt="mover">
         </div>
         <div class="how-to-play-text">
           <h1 class="villainText">HOW TO PLAY THIS VILLAIN</h1>
-          <li><i>{{Villains[3].quote}}</i></li>
-          <li>Objective: <b>{{Villains[3].objective}}</b></li>
-          <li>Strategy: {{Villains[3].strategies[0].stratName}}</li>
-          <li><b>Strengths:</b> {{Villains[3].strengths[0].strengthName}}</li>
-          <li><b>Weaknesses:</b> {{Villains[3].weaknesses[0].weaknessName}}</li>
+          <li><i>{{Villains[1].quote}}</i></li>
+          <li>Objective: <b>{{Villains[1].objective}}</b></li>
+          <li>Strategy: {{Villains[1].strategies[0].stratName}}</li>
+          <li><b>Strengths:</b> {{Villains[1].strengths[0].strengthName}}</li>
+          <li><b>Weaknesses:</b> {{Villains[1].weaknesses[0].weaknessName}}</li>
         </div>
   </div>
 
@@ -50,7 +50,7 @@
         <h1>Fate</h1>
       </div>
       <div class="fate-info-wrapper">
-        <div v-for="fateCard in Villains[3].fateCards">
+        <div v-for="fateCard in Villains[1].fateCards">
           <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg">
         </div>
         
@@ -60,7 +60,7 @@
     <h1>VILLAIN</h1>
   </div>
   <div class="fate-info-wrapper">
-    <div v-for="villainCard in Villains[3].villainCards">
+    <div v-for="villainCard in Villains[1].villainCards">
       <img class="card-image" v-bind:src="villainCard.villainImg" alt="villain img">
     </div>
 </div>
