@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Hades</title>
+    <title>Prince John</title>
     <link rel="icon" href="imgs/Logo.png" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -17,31 +17,31 @@
       <a href="villains.html">Villains</a>
       <a href="FAQ.html">FAQ</a>
     </nav>
-    <section style="background-color: #14526d" class="villains-wrapper">
+    <section style="background-color: #a1510f" class="villains-wrapper">
       <div class="top-info">
-        <h1 class="villainName">{{ Villains[2].name }}</h1>
+        <h1 class="villainName">{{ Villains[8].name }}</h1>
       </div>
 
       <div class="queen-info-wrapper">
         <div class="card-image">
-          <img v-bind:src="Villains[2].img" alt="card front" />
+          <img v-bind:src="Villains[8].img" alt="card front" />
         </div>
         <div class="card-moves-image">
-          <img class="boardImg" v-bind:src="Villains[2].board" alt="board" />
+          <img class="boardImg" v-bind:src="Villains[8].board" alt="board" />
         </div>
       </div>
 
       <div class="how-to-play-wrapper">
         <div class="card-image">
-          <img class="moverImg" v-bind:src="Villains[2].mover" alt="mover" />
+          <img class="moverImg" v-bind:src="Villains[8].mover" alt="mover" />
         </div>
         <div class="how-to-play-text">
           <h1 class="villainText">HOW TO PLAY THIS VILLAIN</h1>
-          <li><i>{{Villains[2].quote}}</i></li>
-          <li>Objective: <b>{{Villains[2].objective}}</b></li>
-          <li>Strategy: {{Villains[2].strategies[0].stratName}}</li>
-          <li><b>Strengths:</b> {{Villains[2].strengths[0].strengthName}}</li>
-          <li><b>Weaknesses:</b> {{Villains[2].weaknesses[0].weaknessName}}</li>
+          <li><i>{{Villains[8].quote}}</i></li>
+          <li>Objective: <b>{{Villains[8].objective}}</b></li>
+          <li>Strategy: {{Villains[8].strategies[0].stratName}}</li>
+          <li><b>Strengths:</b> {{Villains[8].strengths[0].strengthName}}</li>
+          <li><b>Weaknesses:</b> {{Villains[8].weaknesses[0].weaknessName}}</li>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
         <h1>Fate</h1>
       </div>
       <div class="fate-info-wrapper">
-        <div v-for="fateCard in Villains[2].fateCards">
+        <div v-for="fateCard in Villains[8].fateCards">
           <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg" />
         </div>
       </div>
@@ -58,7 +58,7 @@
         <h1>VILLAIN</h1>
       </div>
       <div class="fate-info-wrapper">
-        <div v-for="villainCard in Villains[2].villainCards">
+        <div v-for="villainCard in Villains[8].villainCards">
           <img
             class="card-image"
             v-bind:src="villainCard.villainImg"

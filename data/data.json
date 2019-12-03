@@ -364,6 +364,7 @@
       "img": "imgs/villains/Prince_John.png",
       "imgBack": "imgs/backs/Prince_John_Villain_Back.png",
       "mover": "imgs/movers/PrinceJohnMover.png",
+      "board": "imgs/boards/Princejohnrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#a1510f",
       "objective": "Start your turn with at least 20 power",
@@ -416,7 +417,7 @@
           "villainImg": "imgs/cards/princeJohn/villain/Set_a_Trap.png"
         },
         {
-          "villainImg": "imgs/cards/princeJohn/villain/Sheriff_of_Nottingharm.png"
+          "villainImg": "imgs/cards/princeJohn/villain/Sheriff_of_Nottingham.png"
         },
         { "villainImg": "imgs/cards/princeJohn/villain/Sir_Hiss.png" },
         { "villainImg": "imgs/cards/princeJohn/villain/Trigger.png" },
@@ -430,6 +431,7 @@
       "img": "imgs/villains/Queen_of_Hearts.png",
       "imgBack": "imgs/backs/Queen_of_Hearts_Villain_Back.png",
       "mover": "imgs/movers/QueenHeartsmover.png",
+      "board": "imgs/boards/Queenofheartsrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#9d2c1c",
       "objective": "Have a Wicket at each location and successfully take a shot",
@@ -453,7 +455,7 @@
       "fateCards": [
         { "fateImg": "imgs/cards/queenOfHearts/fate/Alice.png" },
         { "fateImg": "imgs/cards/queenOfHearts/fate/Caterpillar.png" },
-        { "fateImg": "imgs/cards/queenOfHearts/fate/Chesire_Cat.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Cheshire_Cat.png" },
         { "fateImg": "imgs/cards/queenOfHearts/fate/Dodo.png" },
         { "fateImg": "imgs/cards/queenOfHearts/fate/Dormouse.png" },
         { "fateImg": "imgs/cards/queenOfHearts/fate/Down_the_Rabbit_Hole.png" },
@@ -481,7 +483,7 @@
           "villainImg": "imgs/cards/queenOfHearts/villain/Card_Guard_Spade.png"
         },
         { "villainImg": "imgs/cards/queenOfHearts/villain/Fury.png" },
-        { "villainImg": "imgs/cards/queenOfHearts/villain/Judgement.png" },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Judgment.png" },
         {
           "villainImg": "imgs/cards/queenOfHearts/villain/Makes_You_Smaller.png"
         },
@@ -506,6 +508,7 @@
       "img": "imgs/villains/Captain_Hook.png",
       "imgBack": "imgs/backs/Captain_Hook_Villain_Back.png",
       "mover": "imgs/movers/Hookmover.png",
+      "board": "imgs/boards/Captainhookrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#713242",
       "objective": "Defeat Peter Pan at the Jolly Roger",
@@ -564,6 +567,7 @@
       "img": "imgs/villains/Scar.png",
       "imgBack": "imgs/backs/Scar_Villain_Back.png",
       "mover": "imgs/movers/Scarmover.png",
+      "board": "imgs/boards/Scarrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#904A36",
       "objective": "Start your turn with 15 attack power (attack of heroes) in the succession pile.",

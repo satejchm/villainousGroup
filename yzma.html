@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Evil Queen</title>
+    <title>YZMA</title>
     <link rel="icon" href="imgs/Logo.png" />
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <nav>
@@ -15,26 +15,25 @@
       </a>
       <a href="index.html">Home</a>
       <a href="villains.html">Villains</a>
-      <a href="#">FAQ</a>
+      <a href="FAQ.html">FAQ</a>
     </nav>
     <section style="background-color: #80426d" class="villains-wrapper">
       <div class="top-info">
         <h1 class="villainName">{{ Villains[0].name }}</h1>
       </div>
 
-
       <div class="queen-info-wrapper">
-            <div class="card-image">
-              <img v-bind:src="Villains[0].img" alt="card front">
-            </div>
-            <div class="card-moves-image">
-              <img class="boardImg" v-bind:src="Villains[0].board" alt="board">
-            </div>
+        <div class="card-image">
+          <img v-bind:src="Villains[0].img" alt="card front" />
+        </div>
+        <div class="card-moves-image">
+          <img class="boardImg" v-bind:src="Villains[0].board" alt="board" />
+        </div>
       </div>
 
       <div class="how-to-play-wrapper">
         <div class="card-image">
-          <img class="moverImg" v-bind:src="Villains[0].mover" alt="mover">
+          <img class="moverImg" v-bind:src="Villains[0].mover" alt="mover" />
         </div>
         <div class="how-to-play-text">
           <h1 class="villainText">HOW TO PLAY THIS VILLAIN</h1>
@@ -44,30 +43,33 @@
           <li><b>Strengths:</b> {{Villains[0].strengths[0].strengthName}}</li>
           <li><b>Weaknesses:</b> {{Villains[0].weaknesses[0].weaknessName}}</li>
         </div>
-  </div>
+      </div>
 
       <div class="top-info">
         <h1>Fate</h1>
       </div>
       <div class="fate-info-wrapper">
         <div v-for="fateCard in Villains[0].fateCards">
-          <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg">
+          <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg" />
         </div>
-        
-  </div>
+      </div>
 
-  <div class="top-info">
-    <h1>VILLAIN</h1>
-  </div>
-  <div class="fate-info-wrapper">
-    <div v-for="villainCard in Villains[0].villainCards">
-      <img class="card-image" v-bind:src="villainCard.villainImg" alt="villain img">
-    </div>
-</div>
+      <div class="top-info">
+        <h1>VILLAIN</h1>
+      </div>
+      <div class="fate-info-wrapper">
+        <div v-for="villainCard in Villains[0].villainCards">
+          <img
+            class="card-image"
+            v-bind:src="villainCard.villainImg"
+            alt="villain img"
+          />
+        </div>
+      </div>
     </section>
     <footer>
       <h3>Copywrite Stuffs</h3>
-    </footer> 
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
