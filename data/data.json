@@ -1,529 +1,682 @@
 {
-    "rules": {
-        "setup": [
-            "Each player chooses a Villain and takes the corresponding Board,Villain Mover, Villain deck, Fate deck, and Villain Guide, as well as a Reference Card.",
-            "Place your Board in front of you. Each Board contains four locations.Place your Villain Mover on the left-most location.",
-            "If the right-most location has a lock symbol in the corner,place a Lock Token on that location.",
-            "Shuffle your Villain deck and place it face down to the left of your Board.Leave room for a discard pile.",
-            "Draw a starting hand off our cards from your Villain deck. You may look at your cards, but keep them secret from the other players.",
-            "Shuffle your Fate deck and place it face down to the right of yourBoard. Leave room for a discard pile.",
-            "Place the Power Tokens in the Cauldron and place it within reach ofall players.",
-            "Choose a player to go first. The first player does not start with any Power.The second player takes one Power from the Cauldron. The third and fourth players each take two Power. The fifth and sixth players each take three Power."
-        ]
+  "rules": {
+    "setup": [
+      "Each player chooses a Villain and takes the corresponding Board,Villain Mover, Villain deck, Fate deck, and Villain Guide, as well as a Reference Card.",
+      "Place your Board in front of you. Each Board contains four locations.Place your Villain Mover on the left-most location.",
+      "If the right-most location has a lock symbol in the corner,place a Lock Token on that location.",
+      "Shuffle your Villain deck and place it face down to the left of your Board.Leave room for a discard pile.",
+      "Draw a starting hand off our cards from your Villain deck. You may look at your cards, but keep them secret from the other players.",
+      "Shuffle your Fate deck and place it face down to the right of yourBoard. Leave room for a discard pile.",
+      "Place the Power Tokens in the Cauldron and place it within reach ofall players.",
+      "Choose a player to go first. The first player does not start with any Power.The second player takes one Power from the Cauldron. The third and fourth players each take two Power. The fifth and sixth players each take three Power."
+    ]
+  },
+
+  "Villains": [
+    {
+      "name": "Yzma",
+      "link": "yzma.html",
+      "img": "imgs/villains/Yzma.png",
+      "imgBack": "imgs/backs/Yzma_Villain_Back.png",
+      "mover": "imgs/movers/Yzmamover.png",
+      "board": "imgs/boards/Yzmarealm.jpg",
+      "set": "Evil Comes Prepared",
+      "mainColor": "#80426d",
+      "objective": "Defeat Kuzco using Kronk",
+      "complexity": 5,
+      "quote": "Our moment of triumph approaches!",
+      "strengths": [
+        {
+          "strengthName": "Ability to go through Fate deck quickly"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Ability to have Fate completely reshuffled and redealt"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Cull through Fate decks to get a look at cards before opponent Fates you"
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/yzma/fate/Beware_the_Groove.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Bucky.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Chaca.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Chicha.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Kuzco.png" },
+        { "fateImg": "imgs/cards/yzma/fate/On_the_Run.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Pacha.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Peasant.png" },
+        { "fateImg": "imgs/cards/yzma/fate/The_Path_of_Righteousness.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Tipo.png" },
+        { "fateImg": "imgs/cards/yzma/fate/Wrong_Lever.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/yzma/villain/A_Cruel_Irony.png" },
+        { "villainImg": "imgs/cards/yzma/villain/After_Them!.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Beauty_Sleep.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Dagger.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Eavesdrop.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Fake_Funeral.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Ferocity.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Finish_the_Job.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Imperial_Guards.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Kronk.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Right-Hand_Man.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Smash_It_With_a_Hammer.png" },
+        { "villainImg": "imgs/cards/yzma/villain/Superiority.png" },
+        { "villainImg": "imgs/cards/yzma/villain/The_Path_That_Rocks.png" }
+      ]
+    },
+    {
+      "name": "Ratigan",
+      "link": "ratigan.html",
+      "img": "imgs/villains/Ratigan.png",
+      "imgBack": "imgs/backs/Ratigan_Villain_Back.png",
+      "mover": "imgs/movers/Ratiganmover.png",
+      "board": "imgs/boards/Ratiganrealm.jpg",
+      "set": "Evil Comes Prepared",
+      "mainColor": "#66625f",
+      "objective": "Start your turn with The Robot Queen at Buckingham Palace. If The Robot Queen is discarded from your realm, then you must Defeat Basil",
+      "complexity": 3,
+      "quote": "Oh this is wicked. So delightfully wicked!",
+      "strengths": [
+        {
+          "strengthName": "Dual forms of winning"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "N/A"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Get all of the gears out to get the queen on the board quickly, have the blimp on hand"
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/ratigan/fate/Basil.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Call_for_Help.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Dawson.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Flaversham.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Makeshift_Balloon.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Mrs_Judson.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Olivia.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Queen's_Guards.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Sabotage.png" },
+        { "fateImg": "imgs/cards/ratigan/fate/The_Mouse_Queen .png" },
+        { "fateImg": "imgs/cards/ratigan/fate/Toby_(Ratigan).png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/ratigan/villain/Airship.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Bartholomew.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Bell.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Capture.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Devious.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Extravagant.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Felicia.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Fidget.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Fidget's_List.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Gears.png" },
+        {
+          "villainImg": "imgs/cards/ratigan/villain/Greatest_Criminal_Mind.png"
+        },
+        { "villainImg": "imgs/cards/ratigan/villain/Marvelous_Trap.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Royal_Robes.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Ruffians.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/The_Robot_Queen.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Tools.png" },
+        { "villainImg": "imgs/cards/ratigan/villain/Uniform.png" }
+      ]
+    },
+    {
+      "name": "Hades",
+      "link": "hades.html",
+      "img": "imgs/villains/Hades.png",
+      "imgBack": "imgs/backs/Hades_Villain_Back.png",
+      "mover": "imgs/movers/Hadesmover.png",
+      "board": "imgs/boards/Hadesrealm.jpg",
+      "set": "Evil to the Core",
+      "mainColor": "#14526d",
+      "objective": "Start your turn with three Titans at Mount Olympus",
+      "complexity": 3,
+      "quote": "Everybody's got a weakness.",
+      "strengths": [
+        {
+          "strengthName": "Many allies for fighting"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Many cards that set titans back (win condition prevention)"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Move titans as quickly as possible"
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/hades/fate/Go_the_Distance.png" },
+        { "fateImg": "imgs/cards/hades/fate/Hera.png" },
+        { "fateImg": "imgs/cards/hades/fate/Hercules.png" },
+        { "fateImg": "imgs/cards/hades/fate/Hermes.png" },
+        { "fateImg": "imgs/cards/hades/fate/Lightning_Bolt.png" },
+        { "fateImg": "imgs/cards/hades/fate/Medallion.png" },
+        { "fateImg": "imgs/cards/hades/fate/Megara.png" },
+        { "fateImg": "imgs/cards/hades/fate/Pegasus.png" },
+        { "fateImg": "imgs/cards/hades/fate/Phil.png" },
+        { "fateImg": "imgs/cards/hades/fate/The_Gospel_Truth.png" },
+        { "fateImg": "imgs/cards/hades/fate/Zeus.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/hades/villain/Achilles_Heel.png" },
+        { "villainImg": "imgs/cards/hades/villain/Arges.png" },
+        { "villainImg": "imgs/cards/hades/villain/Cerberus.png" },
+        { "villainImg": "imgs/cards/hades/villain/Chariot.png" },
+        { "villainImg": "imgs/cards/hades/villain/Eye_of_the_Fates.png" },
+        { "villainImg": "imgs/cards/hades/villain/Get_ready_to_Rumble.png" },
+        { "villainImg": "imgs/cards/hades/villain/Hydra.png" },
+        { "villainImg": "imgs/cards/hades/villain/Hydros.png" },
+        { "villainImg": "imgs/cards/hades/villain/I_Rule.png" },
+        { "villainImg": "imgs/cards/hades/villain/Lythos.png" },
+        { "villainImg": "imgs/cards/hades/villain/Mortality_Potion.png" },
+        { "villainImg": "imgs/cards/hades/villain/Nessus.png" },
+        { "villainImg": "imgs/cards/hades/villain/Pain.png" },
+        { "villainImg": "imgs/cards/hades/villain/Panic.png" },
+        { "villainImg": "imgs/cards/hades/villain/Planets_Align.png" },
+        { "villainImg": "imgs/cards/hades/villain/Pyros.png" },
+        { "villainImg": "imgs/cards/hades/villain/Rage.png" },
+        { "villainImg": "imgs/cards/hades/villain/Ruthless.png" },
+        { "villainImg": "imgs/cards/hades/villain/Stratos.png" }
+      ]
+    },
+    {
+      "name": "Evil Queen",
+      "link": "evilQueen.html",
+      "img": "imgs/villains/Evil_Queen.png",
+      "imgBack": "imgs/backs/Evil_Queen_Villain_Back.png",
+      "mover": "imgs/movers/EvilQueenmover.png",
+      "board": "imgs/boards/Evilqueenrealm.jpg",
+      "set": "Evil to the Core",
+      "mainColor": "#614a87",
+      "objective": "Defeat Snow White",
+      "complexity": 2,
+      "quote": "I'll be the fairest in the land!",
+      "strengths": [
+        {
+          "strengthName": "Easy ways of killing enemies via 'Take a Bite'."
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "N/A"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Hoard as much poison as possible"
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/evilQueen/fate/Bashful.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Doc.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Dopey.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Grumpy.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Happy.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Love's_First_Kiss.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Pickaxe.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Sleepy.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Sneezy.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Snow_White.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Wishing_Well.png" },
+        { "fateImg": "imgs/cards/evilQueen/fate/Woodland_Creatures.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/evilQueen/villain/Black_Magic.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Black_of_Night.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Huntsman.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/I'll_Fix_Ya.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Jealousy.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Magic_Mirror.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Magic_Tomes.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Mummy_Dust.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Old_Hag's_Cackle.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Scream_of_Fright.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Take_a_Bite.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/The_Box.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Throne.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Thunderbolt.png" },
+        { "villainImg": "imgs/cards/evilQueen/villain/Vanity.png" }
+      ]
+    },
+    {
+      "name": "Dr. Facilier",
+      "link": "drFacilier.html",
+      "img": "imgs/villains/Dr_Facilier.png",
+      "imgBack": "imgs/backs/Dr_Facilier_Villain_Back.png",
+      "set": "Evil to the Core",
+      "mainColor": "#a81b69",
+      "objective": "Control the Talisman and successfully rule New Orleans",
+      "complexity": 5,
+      "quote": "I got friends on the other side.",
+      "strengths": [
+        {
+          "strengthName": "Allies have the ability to move heroes around"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Talisman (needed for win condition) is attached to any hero with a stregnth of 2 or less when played"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Play allies/items out who have the ability to move Dr. Facilier an extra step or take actions at adjacent locations"
+        }
+      ]
+    },
+    {
+      "name": "Maleficent",
+      "link": "maleficent.html",
+      "img": "imgs/villains/Maleficent.png",
+      "imgBack": "imgs/backs/Maleficent_Villain_Back.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#374d36",
+      "objective": "Start your turn with a Curse at eah location",
+      "complexity": 2,
+      "quote": "Now go with a curse and serve me well!",
+      "strengths": [
+        {
+          "strengthName": "Multiples of curses to play at different locations"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "One curse, 'Green Fire', is discarded when Maleficent moves to that location "
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Get your crow out as soon as possible to take as many extra actions as possible at the beginning of the game"
+        }
+      ]
+    },
+    {
+      "name": "Ursula",
+      "link": "ursula.html",
+      "img": "imgs/villains/Ursula.png",
+      "imgBack": "imgs/backs/Ursula_Villain_Back.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#462b46",
+      "objective": "Start your turn with at least 15 strength in your Succession pile",
+      "complexity": 5,
+      "quote": "The sea and all its spoils bow to my power!",
+      "strengths": [
+        {
+          "strengthName": "Using binding contracts make it easier to vanquish heroes with high power."
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Allies are not used for vanquishing, instead- binding contracts are used."
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Get The trident out asap so that you have time to vanquish King Triton"
+        }
+      ]
+    },
+    {
+      "name": "Jafar",
+      "link": "jafar.html",
+      "img": "imgs/villains/Jafar.png",
+      "imgBack": "imgs/backs/Jafar_Villain_Back.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#1a1812",
+      "objective": "Start your turn with the Magic Lamp at Sultan's Palace and Genie under your control",
+      "complexity": 4,
+      "quote": "Finally, you will bow to me!",
+      "strengths": [
+        {
+          "strengthName": "Multiple allies"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Many things to complete to earn win condition."
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "N/A"
+        }
+      ]
     },
 
-    "Villains":[
     {
-    "name": "Yzma",
-    "link":"yzma.html",
-    "img":"imgs/villains/Yzma.png",
-    "imgBack":"imgs/backs/Yzma_Villain_Back.png",
-    "mover":"imgs/movers/Yzmamover.png",
-    "board":"imgs/boards/Yzmarealm.jpg",
-    "set": "Evil Comes Prepared",
-    "mainColor": "#80426d",
-    "objective": "Defeat Kuzco using Kronk",
-    "complexity":5,
-    "quote": "Our moment of triumph approaches!",
-    "strengths": [
+      "name": "Prince John",
+      "link": "princeJohn.html",
+      "img": "imgs/villains/Prince_John.png",
+      "imgBack": "imgs/backs/Prince_John_Villain_Back.png",
+      "mover": "imgs/movers/PrinceJohnMover.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#a1510f",
+      "objective": "Start your turn with at least 20 power",
+      "complexity": 1,
+      "quote": "This crown gives me a felling of power!",
+      "strengths": [
         {
-            "strengthName":"Ability to go through Fate deck quickly"
+          "strengthName": "Many allies to put on board and defend"
         }
-    ],
-    "weaknesses": [
+      ],
+      "weaknesses": [
         {
-            "weaknessName":"Ability to have Fate completely reshuffled and redealt"
+          "weaknessName": "Allies cost large amounts of power to play."
         }
-    ],
-    "strategies": [
+      ],
+      "strategies": [
         {
-            "stratName": "Cull through Fate decks to get a look at cards before opponent Fates you"
+          "stratName": "Put out allies for defense at the beginning of the round."
         }
-    ],
-    "fateCards":[
-        {"fateImg":"imgs/cards/yzma/fate/Beware_the_Groove.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Bucky.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Chaca.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Chicha.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Kuzco.png"},
-        {"fateImg":"imgs/cards/yzma/fate/On_the_Run.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Pacha.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Peasant.png"},
-        {"fateImg":"imgs/cards/yzma/fate/The_Path_of_Righteousness.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Tipo.png"},
-        {"fateImg":"imgs/cards/yzma/fate/Wrong_Lever.png"}
-    ],
-    "villainCards":[
-        {"villainImg":"imgs/cards/yzma/villain/A_Cruel_Irony.png"},
-        {"villainImg":"imgs/cards/yzma/villain/After_Them!.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Beauty_Sleep.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Dagger.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Eavesdrop.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Fake_Funeral.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Ferocity.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Finish_the_Job.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Imperial_Guards.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Kronk.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Right-Hand_Man.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Smash_It_With_a_Hammer.png"},
-        {"villainImg":"imgs/cards/yzma/villain/Superiority.png"},
-        {"villainImg":"imgs/cards/yzma/villain/The_Path_That_Rocks.png"}
-    ]
-},
-{
-    "name": "Ratigan",
-    "link":"ratigan.html",
-    "img":"imgs/villains/Ratigan.png",
-    "imgBack":"imgs/backs/Ratigan_Villain_Back.png",
-    "mover":"imgs/movers/Ratiganmover.png",
-    "board":"imgs/boards/Ratiganrealm.jpg",
-    "set": "Evil Comes Prepared",
-    "mainColor": "#66625f",
-    "objective": "Start your turn with The Robot Queen at Buckingham Palace. If The Robot Queen is discarded from your realm, then you must Defeat Basil",
-    "complexity":3,
-    "quote": "Oh this is wicked. So delightfully wicked!",
-    "strengths": [
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/princeJohn/fate/Alan-a-Dale.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Clever_Disguise.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Friar_tuck.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/King_Richard.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Lady_Kluck.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Little_John.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Maid_Marian.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Robin_Hood.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Skippy.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Steal_from_the_Rich.png" },
+        { "fateImg": "imgs/cards/princeJohn/fate/Toby.png" }
+      ],
+      "villainCards": [
         {
-            "strengthName":"Dual forms of winning"
-        }
-    ],
-    "weaknesses": [
+          "villainImg": "imgs/cards/princeJohn/villain/Beautiful_Lovely_Taxes.png"
+        },
+        { "villainImg": "imgs/cards/princeJohn/villain/Bow_and_Arrows.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Cowardice.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Golden_Arrow.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Greed.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Imprison.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Intimidation.png" },
         {
-            "weaknessName":"N/A"
-        }
-    ],
-    "strategies": [
+          "villainImg": "imgs/cards/princeJohn/villain/King_Richards_Crown.png"
+        },
+        { "villainImg": "imgs/cards/princeJohn/villain/Nutsy.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Rhino_Guards.png" },
         {
-            "stratName": "Get all of the gears out to get the queen on the board quickly, have the blimp on hand"
-        }
-    ],
-    "fateCards":[
-        {"fateImg":"imgs/cards/ratigan/fate/Basil.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Call_for_Help.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Dawson.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Flaversham.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Makeshift_Balloon.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Mrs_Judson.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Olivia.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Queen's_Guards.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Sabotage.png"},
-        {"fateImg":"imgs/cards/ratigan/fate/The_Mouse_Queen .png"},
-        {"fateImg":"imgs/cards/ratigan/fate/Toby_(Ratigan).png"}
-    ],
-    "villainCards":[
-        {"villainImg":"imgs/cards/ratigan/villain/Airship.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Bartholomew.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Bell.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Capture.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Devious.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Extravagant.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Felicia.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Fidget.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Fidget's_List.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Gears.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Greatest_Criminal_Mind.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Marvelous_Trap.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Royal_Robes.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Ruffians.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/The_Robot_Queen.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Tools.png"},
-        {"villainImg":"imgs/cards/ratigan/villain/Uniform.png"}
-    ]
-},
-{
-    "name": "Hades",
-    "link":"hades.html",
-    "img":"imgs/villains/Hades.png",
-    "imgBack":"imgs/backs/Hades_Villain_Back.png",
-    "mover":"imgs/movers/Hadesmover.png",
-    "board":"imgs/boards/Hadesrealm.jpg",
-    "set": "Evil to the Core",
-    "mainColor": "#14526d",
-    "objective": "Start your turn with three Titans at Mount Olympus",
-    "complexity":3,
-    "quote": "Everybody's got a weakness.",
-    "strengths": [
+          "villainImg": "imgs/cards/princeJohn/villain/Set_a_Trap.png"
+        },
         {
-            "strengthName":"Many allies for fighting"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName":"Many cards that set titans back (win condition prevention)"
-        }
-    ],
-    "strategies": [
-        {
-            "stratName": "Move titans as quickly as possible"
-        }
-    ],
-    "fateCards":[
-        {"fateImg":"imgs/cards/hades/fate/Go_the_Distance.png"},
-        {"fateImg":"imgs/cards/hades/fate/Hera.png"},
-        {"fateImg":"imgs/cards/hades/fate/Hercules.png"},
-        {"fateImg":"imgs/cards/hades/fate/Hermes.png"},
-        {"fateImg":"imgs/cards/hades/fate/Lightning_Bolt.png"},
-        {"fateImg":"imgs/cards/hades/fate/Medallion.png"},
-        {"fateImg":"imgs/cards/hades/fate/Megara.png"},
-        {"fateImg":"imgs/cards/hades/fate/Pegasus.png"},
-        {"fateImg":"imgs/cards/hades/fate/Phil.png"},
-        {"fateImg":"imgs/cards/hades/fate/The_Gospel_Truth.png"},
-        {"fateImg":"imgs/cards/hades/fate/Zeus.png"}
-    ],
-    "villainCards":[
-        {"villainImg":"imgs/cards/hades/villain/Achilles_Heel.png"},
-        {"villainImg":"imgs/cards/hades/villain/Arges.png"},
-        {"villainImg":"imgs/cards/hades/villain/Cerberus.png"},
-        {"villainImg":"imgs/cards/hades/villain/Chariot.png"},
-        {"villainImg":"imgs/cards/hades/villain/Eye_of_the_Fates.png"},
-        {"villainImg":"imgs/cards/hades/villain/Get_ready_to_Rumble.png"},
-        {"villainImg":"imgs/cards/hades/villain/Hydra.png"},
-        {"villainImg":"imgs/cards/hades/villain/Hydros.png"},
-        {"villainImg":"imgs/cards/hades/villain/I_Rule.png"},
-        {"villainImg":"imgs/cards/hades/villain/Lythos.png"},
-        {"villainImg":"imgs/cards/hades/villain/Mortality_Potion.png"},
-        {"villainImg":"imgs/cards/hades/villain/Nessus.png"},
-        {"villainImg":"imgs/cards/hades/villain/Pain.png"},
-        {"villainImg":"imgs/cards/hades/villain/Panic.png"},
-        {"villainImg":"imgs/cards/hades/villain/Planets_Align.png"},
-        {"villainImg":"imgs/cards/hades/villain/Pyros.png"},
-        {"villainImg":"imgs/cards/hades/villain/Rage.png"},
-        {"villainImg":"imgs/cards/hades/villain/Ruthless.png"},
-        {"villainImg":"imgs/cards/hades/villain/Stratos.png"}
-    ]
-},
-{
-    "name": "Evil Queen",
-    "link":"evilQueen.html",
-    "img":"imgs/villains/Evil_Queen.png",
-    "imgBack":"imgs/backs/Evil_Queen_Villain_Back.png",
-    "mover":"imgs/movers/EvilQueenmover.png",
-    "board":"imgs/boards/Evilqueenrealm.jpg",
-    "set": "Evil to the Core",
-    "mainColor": "#614a87",
-    "objective": "Defeat Snow White",
-    "complexity":2,
-    "quote": "I'll be the fairest in the land!",
-    "strengths": [
-        {
-            "strengthName": "Easy ways of killing enemies via 'Take a Bite'."
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "N/A"
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Hoard as much poison as possible"
-        }
-    ],
-    "fateCards":[
-        {   "fateImg":"imgs/cards/evilQueen/fate/Bashful.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Doc.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Dopey.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Grumpy.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Happy.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Love's_First_Kiss.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Pickaxe.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Sleepy.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Sneezy.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Snow_White.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Wishing_Well.png" },
-        {   "fateImg":"imgs/cards/evilQueen/fate/Woodland_Creatures.png" }
-        
-    ],
-    "villainCards":[
-        {"villainImg":"imgs/cards/evilQueen/villain/Black_Magic.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Black_of_Night.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Huntsman.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/I'll_Fix_Ya.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Jealousy.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Magic_Mirror.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Magic_Tomes.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Mummy_Dust.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Old_Hag's_Cackle.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Scream_of_Fright.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Take_a_Bite.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/The_Box.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Throne.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Thunderbolt.png"},
-        {"villainImg":"imgs/cards/evilQueen/villain/Vanity.png"} 
-    ]
-},
-{
-    "name": "Dr. Facilier",
-    "link":"drFacilier.html",
-    "img":"imgs/villains/Dr_Facilier.png",
-    "imgBack":"imgs/backs/Dr_Facilier_Villain_Back.png",
-    "set": "Evil to the Core",
-    "mainColor": "#a81b69",
-    "objective": "Control the Talisman and successfully rule New Orleans",
-    "complexity":5,
-    "quote": "I got friends on the other side.",
-    "strengths": [
-        {
-            "strengthName": "Allies have the ability to move heroes around"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Talisman (needed for win condition) is attached to any hero with a stregnth of 2 or less when played"
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Play allies/items out who have the ability to move Dr. Facilier an extra step or take actions at adjacent locations"
-        }
-    ]
-},
-{
-    "name": "Maleficent",
-    "link":"maleficent.html",
-    "img":"imgs/villains/Maleficent.png",
-    "imgBack":"imgs/backs/Maleficent_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#374d36",
-    "objective": "Start your turn with a Curse at eah location",
-    "complexity":2,
-    "quote": "Now go with a curse and serve me well!",
-    "strengths": [
-        {
-            "strengthName": "Multiples of curses to play at different locations"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "One curse, 'Green Fire', is discarded when Maleficent moves to that location "
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Get your crow out as soon as possible to take as many extra actions as possible at the beginning of the game"
-        }
-    ]
-},
-{
-    "name": "Ursula",
-    "link":"ursula.html",
-    "img":"imgs/villains/Ursula.png",
-    "imgBack":"imgs/backs/Ursula_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#462b46",
-    "objective": "Start your turn with at least 15 strength in your Succession pile",
-    "complexity":5,
-    "quote": "The sea and all its spoils bow to my power!",
-    "strengths": [
-        {
-            "strengthName": "Using binding contracts make it easier to vanquish heroes with high power."
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Allies are not used for vanquishing, instead- binding contracts are used."
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Get The trident out asap so that you have time to vanquish King Triton"
-        }
-    ]
-},
-{
-    "name": "Jafar",
-    "link":"jafar.html",
-    "img":"imgs/villains/Jafar.png",
-    "imgBack":"imgs/backs/Jafar_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#1a1812",
-    "objective": "Start your turn with the Magic Lamp at Sultan's Palace and Genie under your control",
-    "complexity":4,
-    "quote": "Finally, you will bow to me!",
-    "strengths": [
-        {
-            "strengthName": "Multiple allies"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Many things to complete to earn win condition."
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"N/A"
-        }
-    ]
-},
-{
-    "name": "Prince John",
-    "link":"princeJohn.html",
-    "img":"imgs/villains/Prince_John.png",
-    "imgBack":"imgs/backs/Prince_John_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#a1510f",
-    "objective": "Start your turn with at least 20 power",
-    "complexity":1,
-    "quote": "This crown gives me a felling of power!",
-    "strengths": [
-        {
-            "strengthName": "Many allies to put on board and defend"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Allies cost large amounts of power to play."
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Put out allies for defense at the beginning of the round."
-        }
-    ]
-},
-{
-    "name": "Queen of Hearts",
-    "link":"queenOfHearts.html",
-    "img":"imgs/villains/Queen_of_Hearts.png",
-    "imgBack":"imgs/backs/Queen_of_Hearts_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#9d2c1c",
-    "objective": "Have a Wicket at each location and successfully take a shot",
-    "complexity":3,
-    "quote": "If I lose my temper, you lose your head.",
-    "strengths": [
-        {
-            "strengthName": "Multiple ways to earn and keep power."
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Limited number of allies that are not needed for wickets (win condition)"
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Play out non-wicket allies as soon as possible."
-        }
-    ]
-},
-{
-    "name": "Captain Hook",
-    "link":"captainHook.html",
-    "img":"imgs/villains/Captain_Hook.png",
-    "imgBack":"imgs/backs/Captain_Hook_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#713242",
-    "objective": "Defeat Peter Pan at the Jolly Roger",
-    "complexity":1,
-    "quote": "Double the power and shorten the fuse!",
-    "strengths": [
-        {
-            "strengthName": "Many allies to be played on the board"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "N/A"
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Sift through Fate deck and get Peter Pan out as soon as possible."
-        }
-    ]
-},
-{
-    "name": "Scar",
-    "link":"scar.html",
-    "img":"imgs/villains/Scar.png",
-    "imgBack":"imgs/backs/Scar_Villain_Back.png",
-    "set": "The Worst Takes It All",
-    "mainColor": "#904A36",
-    "objective": "Start your turn with 15 attack power (attack of heroes) in the succession pile.",
-    "complexity":8,
-    "quote": "Long live the king!",
-    "strengths": [
-        {
-            "strengthName": "Multiples of allies to play at different locations"
-        }
-    ],
-    "weaknesses": [
-        {
-            "weaknessName": "Must fate multiple times to have a chance at winning against one on one battles. "
-        }
-    ],
-    "strategies": [
-        {
-            "stratName":"Get Zazu out and attach the stick to him so that you may use Zazu to your advantage and keep the stick from others fating you."
-        }
-    ]
-}
-],
-"FAQ": [
-    {
-        "question": "What if a card conflicts with the Instructions? ",
-        "answer": "If the Ability on a card violates a rule in the Instructions, the card takes precedence. "
+          "villainImg": "imgs/cards/princeJohn/villain/Sheriff_of_Nottingharm.png"
+        },
+        { "villainImg": "imgs/cards/princeJohn/villain/Sir_Hiss.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Trigger.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Warrant.png" },
+        { "villainImg": "imgs/cards/princeJohn/villain/Wolf_Archers.png" }
+      ]
     },
     {
-        "question": "If I reveal a Fate card that cannot be played, do I get to reveal a new one? ",
-        "answer": "No. If a Fate card cannot be played (for example, you revealed an Item and there is no Hero in the Realm to attach itto), the card may not be played and must be discarded. If you are taking a Fate action and both cards revealed cannotbe played, you must discard both of them without effect. Fate favored your opponent this time!"
+      "name": "Queen of Hearts",
+      "link": "queenOfHearts.html",
+      "img": "imgs/villains/Queen_of_Hearts.png",
+      "imgBack": "imgs/backs/Queen_of_Hearts_Villain_Back.png",
+      "mover": "imgs/movers/QueenHeartsmover.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#9d2c1c",
+      "objective": "Have a Wicket at each location and successfully take a shot",
+      "complexity": 3,
+      "quote": "If I lose my temper, you lose your head.",
+      "strengths": [
+        {
+          "strengthName": "Multiple ways to earn and keep power."
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Limited number of allies that are not needed for wickets (win condition)"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Play out non-wicket allies as soon as possible."
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Alice.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Caterpillar.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Chesire_Cat.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Dodo.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Dormouse.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Down_the_Rabbit_Hole.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/I'm_Late!_I'm_Late!.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Mad_Hatter.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Makes_You_Larger.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/March_Hare.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/Mome_Raths.png" },
+        { "fateImg": "imgs/cards/queenOfHearts/fate/White_Rabbit.png" }
+      ],
+      "villainCards": [
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/By_Order_of_the_Queen.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Card_Guard_Club.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Card_Guard_Diamond.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Card_Guard_Heart.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Card_Guard_Spade.png"
+        },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Fury.png" },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Judgement.png" },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Makes_You_Smaller.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Off_With_Your_Head.png"
+        },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Spear.png" },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Stopwatch.png" },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/Take_the_Shot.png" },
+        { "villainImg": "imgs/cards/queenOfHearts/villain/The_King.png" },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Tweedle_Dee_Tweedle_Dum.png"
+        },
+        {
+          "villainImg": "imgs/cards/queenOfHearts/villain/Very_Merry_Unbirthday.png"
+        }
+      ]
     },
     {
-        "question": "If I defeat a Hero during my turn and action symbols are uncovered at my Villain’s location, may I perform thoseactions on this turn? ",
-        "answer": "Yes. If an action symbol at your location is uncovered during your turn, you may immediately perform the action.Likewise, if an action symbol is covered before you perform that action on your turn, you may not perform the action."
+      "name": "Captain Hook",
+      "link": "captainHook.html",
+      "img": "imgs/villains/Captain_Hook.png",
+      "imgBack": "imgs/backs/Captain_Hook_Villain_Back.png",
+      "mover": "imgs/movers/Hookmover.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#713242",
+      "objective": "Defeat Peter Pan at the Jolly Roger",
+      "complexity": 1,
+      "quote": "Double the power and shorten the fuse!",
+      "strengths": [
+        {
+          "strengthName": "Many allies to be played on the board"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "N/A"
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Sift through Fate deck and get Peter Pan out as soon as possible."
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/captainHook/fate/John.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Lost_Boys.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Michael.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Peter_Pan.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Pixie_Dust.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Splitting_Headache.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Taunt.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Tick_Tock.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Tinker_Bell.png" },
+        { "fateImg": "imgs/cards/captainHook/fate/Wendy.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/captainHook/villain/Aye_Aye_Sir.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Boarding_Party.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Cannon.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Cunning.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Cutlass.png" },
+        {
+          "villainImg": "imgs/cards/captainHook/villain/Give_Them_a_Scare.png"
+        },
+        { "villainImg": "imgs/cards/captainHook/villain/Hook's_Case.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Ingenious_Device.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Mr_Starkey.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Never_Land_Map.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Obsession.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Pirate_Brute.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Smee.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Swashbuckler.png" },
+        { "villainImg": "imgs/cards/captainHook/villain/Worthy_Opponent.png" }
+      ]
     },
     {
-        "question": "If multiple Heroes are at one location, do I have to defeat them in a certain order? ",
-        "answer": "No. If multiple Heroes are at a location, you may choose which Hero to defeat."
-    },
-    {
-        "question": "I have a card that will allow me to defeat a Hero with a Strength of 4 or less. Does this refer to the Strength printed onthe Hero card, or do I factor in other card Abilities? ",
-        "answer": "Whenever referring to a Hero’s (or Ally’s) Strength, always consider all other card Abilities that are in effect in the Realm.For example, if a Hero has a Strength of 5 printed on their card, but another card in the Realm gives them -1 Strength,then that Hero’s Strength is considered to be 4 for all purposes. "
-    }, {
-        "question": "If a Hero’s Strength is reduced to 0 by other card Abilities, can I just remove that Hero from the Realm? ",
-        "answer": "No. You must still use a Vanquish action or card Ability to defeat the Hero. However, if you use a Vanquish action, noAllies need to be discarded. You can defeat the Hero even if you have no Allies at the Hero’s location."
-    },
-    {
-        "question": "If I use a card’s Activated Ability, do I then discard it?",
-        "answer": "No. The card remains in your Realm. There is no limit to the number of times you may activate a card’s Ability, providedyou use an Activate action and pay the card’s Activation Cost, if any, each time. "
-    },
-    {
-        "question": "Can I play or move a Hero to the bottom of the Board? ",
-        "answer": "No. Fate cards are always played to and moved across the top of the Board, unless a card Ability specifically instructsyou to move a Fate card to the bottom of the Board."
-    },
-    {
-        "question": "If I can’t do what a card says, can I still play it? ",
-        "answer": "No. If you cannot do what the card says, then you cannot play it. However, if the cardsays “may,” the text that follows is optional. In this case, you may play the card andthen choose whether or not to do that part of its Ability. If you cannot play a card,you can discard it by performing the Discard Cards action. "
-    },
-    {
-        "question": "Is there a hand limit? ",
-        "answer": "No. There is no limit to the number of cards in your hand at any time, but you willonly draw cards at the end of your turn if you have fewer than four"
-    },
-    {
-        "question": "What happens if I need to take Power, but the Supply is empty?",
-        "answer": "Power is considered infinite. You can grab other tokens or coins to use asadditional Power"
-    },
-    {
-        "question": "Can I look through my discard piles? What about an opponent’sdiscard piles? ",
-        "answer": "Yes. All cards that are face up are public, and any player may look through anydiscard pile at any time."
-    },
-    {
-        "question": "Can I play or move a Hero to the bottom of the Board? ",
-        "answer": "No. Fate cards are always played to and moved across the top of the Board, unless acard Ability specifically instructs you to move a Fate card to the bottom of the Board."
-    },
-    {
-        "question": "Can I play a Condition at any time during another player’s turn, aslong as the requirement was met at some point during that turn? ",
-        "answer": "No. A Condition card can only be played when the requirement is met. For example,if the requirement is that another player defeats a Hero with a Strength of 3 ormore, you must play your Condition card when that Hero is defeated. You may notwait until later in the turn. However, playing a Condition is optional. So in the sameexample, you may choose not to play your Condition, and instead play it later,when a different player defeats a Hero or the same player defeats another Hero"
-    },
-    {
-        "question": "Before I can win, am I required to defeat all the Heroes in my Realm,or have my Villain Mover at a specific location? ",
-        "answer": "No. Only your Objective needs to be achieved in order to win. Your Villain Guidedescribes your Objective and how it is achieved. Some Villains are not required todefeat any Heroes, although leaving Heroes in your realm may slow your progresstoward victory"
-    },
-    {
-        "question": "Which Villain is the easiest to win with? ",
-        "answer": "Each Villain, when played with skill and cunning, is equally prepared to achievetheir Objective. However, the strategies utilized by each Villain vary in complexity. "
+      "name": "Scar",
+      "link": "scar.html",
+      "img": "imgs/villains/Scar.png",
+      "imgBack": "imgs/backs/Scar_Villain_Back.png",
+      "mover": "imgs/movers/Scarmover.png",
+      "set": "The Worst Takes It All",
+      "mainColor": "#904A36",
+      "objective": "Start your turn with 15 attack power (attack of heroes) in the succession pile.",
+      "complexity": 8,
+      "quote": "Long live the king!",
+      "strengths": [
+        {
+          "strengthName": "Multiples of allies to play at different locations"
+        }
+      ],
+      "weaknesses": [
+        {
+          "weaknessName": "Must fate multiple times to have a chance at winning against one on one battles. "
+        }
+      ],
+      "strategies": [
+        {
+          "stratName": "Get Zazu out and attach the stick to him so that you may use Zazu to your advantage and keep the stick from others fating you."
+        }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/scar/fate/Hakuna_Matata.png" },
+        { "fateImg": "imgs/cards/scar/fate/Mufasa.png" },
+        { "fateImg": "imgs/cards/scar/fate/Nala.png" },
+        { "fateImg": "imgs/cards/scar/fate/Prophecy.png" },
+        { "fateImg": "imgs/cards/scar/fate/Pumbaa.png" },
+        { "fateImg": "imgs/cards/scar/fate/Rafiki.png" },
+        { "fateImg": "imgs/cards/scar/fate/Rafiki's_Stick.png" },
+        { "fateImg": "imgs/cards/scar/fate/Sarabi.png" },
+        { "fateImg": "imgs/cards/scar/fate/Simba.png" },
+        { "fateImg": "imgs/cards/scar/fate/Timon.png" },
+        { "fateImg": "imgs/cards/scar/fate/Zazu.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/scar/villain/Banzai_the_Hyena.png" },
+        { "villainImg": "imgs/cards/scar/villain/Be_Prepared.png" },
+        { "villainImg": "imgs/cards/scar/villain/Ed_the_Hyena.png" },
+        { "villainImg": "imgs/cards/scar/villain/Feeding_Frenzy.png" },
+        { "villainImg": "imgs/cards/scar/villain/Hungry_Hyena.png" },
+        { "villainImg": "imgs/cards/scar/villain/Injustice.png" },
+        { "villainImg": "imgs/cards/scar/villain/Long_Live_the_King.png" },
+        { "villainImg": "imgs/cards/scar/villain/Pride.png" },
+        { "villainImg": "imgs/cards/scar/villain/Shenzi_the_Hyena.png" },
+        { "villainImg": "imgs/cards/scar/villain/Stampede.png" },
+        { "villainImg": "imgs/cards/scar/villain/Stick_With_Me.png" },
+        { "villainImg": "imgs/cards/scar/villain/Whisper.png" }
+      ]
     }
-]
+  ],
+  "FAQ": [
+    {
+      "question": "What if a card conflicts with the Instructions? ",
+      "answer": "If the Ability on a card violates a rule in the Instructions, the card takes precedence. "
+    },
+    {
+      "question": "If I reveal a Fate card that cannot be played, do I get to reveal a new one? ",
+      "answer": "No. If a Fate card cannot be played (for example, you revealed an Item and there is no Hero in the Realm to attach itto), the card may not be played and must be discarded. If you are taking a Fate action and both cards revealed cannotbe played, you must discard both of them without effect. Fate favored your opponent this time!"
+    },
+    {
+      "question": "If I defeat a Hero during my turn and action symbols are uncovered at my Villain’s location, may I perform thoseactions on this turn? ",
+      "answer": "Yes. If an action symbol at your location is uncovered during your turn, you may immediately perform the action.Likewise, if an action symbol is covered before you perform that action on your turn, you may not perform the action."
+    },
+    {
+      "question": "If multiple Heroes are at one location, do I have to defeat them in a certain order? ",
+      "answer": "No. If multiple Heroes are at a location, you may choose which Hero to defeat."
+    },
+    {
+      "question": "I have a card that will allow me to defeat a Hero with a Strength of 4 or less. Does this refer to the Strength printed onthe Hero card, or do I factor in other card Abilities? ",
+      "answer": "Whenever referring to a Hero’s (or Ally’s) Strength, always consider all other card Abilities that are in effect in the Realm.For example, if a Hero has a Strength of 5 printed on their card, but another card in the Realm gives them -1 Strength,then that Hero’s Strength is considered to be 4 for all purposes. "
+    },
+    {
+      "question": "If a Hero’s Strength is reduced to 0 by other card Abilities, can I just remove that Hero from the Realm? ",
+      "answer": "No. You must still use a Vanquish action or card Ability to defeat the Hero. However, if you use a Vanquish action, noAllies need to be discarded. You can defeat the Hero even if you have no Allies at the Hero’s location."
+    },
+    {
+      "question": "If I use a card’s Activated Ability, do I then discard it?",
+      "answer": "No. The card remains in your Realm. There is no limit to the number of times you may activate a card’s Ability, providedyou use an Activate action and pay the card’s Activation Cost, if any, each time. "
+    },
+    {
+      "question": "Can I play or move a Hero to the bottom of the Board? ",
+      "answer": "No. Fate cards are always played to and moved across the top of the Board, unless a card Ability specifically instructsyou to move a Fate card to the bottom of the Board."
+    },
+    {
+      "question": "If I can’t do what a card says, can I still play it? ",
+      "answer": "No. If you cannot do what the card says, then you cannot play it. However, if the cardsays “may,” the text that follows is optional. In this case, you may play the card andthen choose whether or not to do that part of its Ability. If you cannot play a card,you can discard it by performing the Discard Cards action. "
+    },
+    {
+      "question": "Is there a hand limit? ",
+      "answer": "No. There is no limit to the number of cards in your hand at any time, but you willonly draw cards at the end of your turn if you have fewer than four"
+    },
+    {
+      "question": "What happens if I need to take Power, but the Supply is empty?",
+      "answer": "Power is considered infinite. You can grab other tokens or coins to use asadditional Power"
+    },
+    {
+      "question": "Can I look through my discard piles? What about an opponent’sdiscard piles? ",
+      "answer": "Yes. All cards that are face up are public, and any player may look through anydiscard pile at any time."
+    },
+    {
+      "question": "Can I play or move a Hero to the bottom of the Board? ",
+      "answer": "No. Fate cards are always played to and moved across the top of the Board, unless acard Ability specifically instructs you to move a Fate card to the bottom of the Board."
+    },
+    {
+      "question": "Can I play a Condition at any time during another player’s turn, aslong as the requirement was met at some point during that turn? ",
+      "answer": "No. A Condition card can only be played when the requirement is met. For example,if the requirement is that another player defeats a Hero with a Strength of 3 ormore, you must play your Condition card when that Hero is defeated. You may notwait until later in the turn. However, playing a Condition is optional. So in the sameexample, you may choose not to play your Condition, and instead play it later,when a different player defeats a Hero or the same player defeats another Hero"
+    },
+    {
+      "question": "Before I can win, am I required to defeat all the Heroes in my Realm,or have my Villain Mover at a specific location? ",
+      "answer": "No. Only your Objective needs to be achieved in order to win. Your Villain Guidedescribes your Objective and how it is achieved. Some Villains are not required todefeat any Heroes, although leaving Heroes in your realm may slow your progresstoward victory"
+    },
+    {
+      "question": "Which Villain is the easiest to win with? ",
+      "answer": "Each Villain, when played with skill and cunning, is equally prepared to achievetheir Objective. However, the strategies utilized by each Villain vary in complexity. "
+    }
+  ]
 }
