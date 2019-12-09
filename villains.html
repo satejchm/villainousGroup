@@ -26,13 +26,18 @@
         <div class="card v-image" v-for="villain in Villains">
           <div class="card-inner">
             <a v-bind:href="villain.link">
-            <div class="card-front">
-              <img v-bind:src="villain.img" alt="Villain img" />
-            </div>
-            <div class="card-back">
-              <img v-bind:src="villain.imgBack" alt="Villain back" />
-            </div>
-          </a>
+              <div class="card-front">
+                <img v-bind:src="villain.img" alt="Villain img" />
+              </div>
+              <div class="card-back">
+                <img
+                  height="300px"
+                  width="216px"
+                  v-bind:src="villain.imgBack"
+                  alt="Villain back"
+                />
+              </div>
+            </a>
           </div>
         </div>
       </div>
