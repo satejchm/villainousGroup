@@ -258,6 +258,8 @@
       "link": "drFacilier.html",
       "img": "imgs/villains/Dr_Facilier.png",
       "imgBack": "imgs/backs/Dr_Facilier_Villain_Back.png",
+      "mover": "imgs/movers/DrFaciliermover.png",
+      "board": "imgs/boards/Drfacilierrealm.jpg",
       "set": "Evil to the Core",
       "mainColor": "#a81b69",
       "objective": "Control the Talisman and successfully rule New Orleans",
@@ -277,6 +279,40 @@
         {
           "stratName": "Play allies/items out who have the ability to move Dr. Facilier an extra step or take actions at adjacent locations"
         }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/drFacilier/fate/Almost_There.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Big_Daddy_La_Bouff.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Charlotte.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Eudora.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Juju.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Louis.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Mama_Odie.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Naveen.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Ray.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/The_Evening_Star.png" },
+        { "fateImg": "imgs/cards/drFacilier/fate/Tiana.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/drFacilier/villain/Cane.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Desperation.png" },
+        {
+          "villainImg": "imgs/cards/drFacilier/villain/Friends_on_the_Other_Side.png"
+        },
+        { "villainImg": "imgs/cards/drFacilier/villain/Frog_Form.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Illusion_Powder.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Lawrence.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Masked_Spirits.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Rule_New_Orleans.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Shadow_Man.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Shadow_Spirits.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Sleight_of_Hand.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Talisman.png" },
+        { "villainImg": "imgs/cards/drFacilier/villain/Terror.png" },
+        {
+          "villainImg": "imgs/cards/drFacilier/villain/The_Cards_Will_Tell.png"
+        },
+        { "villainImg": "imgs/cards/drFacilier/villain/Voodoo_Dolls.png" }
       ]
     },
     {
@@ -284,6 +320,8 @@
       "link": "maleficent.html",
       "img": "imgs/villains/Maleficent.png",
       "imgBack": "imgs/backs/Maleficent_Villain_Back.png",
+      "mover": "imgs/movers/maleficentmover.png",
+      "board": "imgs/boards/Maleficentrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#374d36",
       "objective": "Start your turn with a Curse at eah location",
@@ -303,6 +341,35 @@
         {
           "stratName": "Get your crow out as soon as possible to take as many extra actions as possible at the beginning of the game"
         }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/malificent/fate/Aurora.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Fauna.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Flora.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Guards.png" },
+        { "fateImg": "imgs/cards/malificent/fate/King_Hubert.png" },
+        { "fateImg": "imgs/cards/malificent/fate/King_Stefan.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Merryweather.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Once_Upon_a_Dream.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Prince_Phillip.png" },
+        { "fateImg": "imgs/cards/malificent/fate/Sword_of_Truth.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/malificent/villain/Cackling_Goon.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Dragon_Form.png" },
+        {
+          "villainImg": "imgs/cards/malificent/villain/Dreamless_Sleep.png"
+        },
+        { "villainImg": "imgs/cards/malificent/villain/Forest_of_Thorns.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Green_Fire.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Malice.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Raven.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Savage_Goon.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Sinister_Goon.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Spinning_Wheel.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Staff.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Tyranny.png" },
+        { "villainImg": "imgs/cards/malificent/villain/Vanish.png" }
       ]
     },
     {
@@ -310,6 +377,8 @@
       "link": "ursula.html",
       "img": "imgs/villains/Ursula.png",
       "imgBack": "imgs/backs/Ursula_Villain_Back.png",
+      "mover": "imgs/movers/Ursulamover.png",
+      "board": "imgs/boards/Ursularealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#462b46",
       "objective": "Start your turn with at least 15 strength in your Succession pile",
@@ -329,6 +398,52 @@
         {
           "stratName": "Get The trident out asap so that you have time to vanquish King Triton"
         }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/ursula/fate/Ariel.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Dinglehopper.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Eric.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Flounder.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Grimsby.png" },
+        { "fateImg": "imgs/cards/ursula/fate/King_Triton.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Max.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Return_to_Form.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Scuttle.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Sebastian.png" },
+        { "fateImg": "imgs/cards/ursula/fate/Snarfblat.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/ursula/villain/Arrogance.png" },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Binding_Contract_Eric's_Ship.png"
+        },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Binding_Contract_The_Palace.png"
+        },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Binding_Contract_The_Shore.png"
+        },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Binding_Contract_Ursula's_Lair.png"
+        },
+        { "villainImg": "imgs/cards/ursula/villain/Cauldron.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Change_Form.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Crown.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Divination.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Flotsam.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Grow_Giant.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Jetsam.png" },
+        { "villainImg": "imgs/cards/ursula/villain/Opportunist.png" },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Poor_Unfortunate_Souls.png"
+        },
+        { "villainImg": "imgs/cards/ursula/villain/Trickery.png" },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Trident.png"
+        },
+        {
+          "villainImg": "imgs/cards/ursula/villain/Whirlpool.png"
+        }
       ]
     },
     {
@@ -336,6 +451,8 @@
       "link": "jafar.html",
       "img": "imgs/villains/Jafar.png",
       "imgBack": "imgs/backs/Jafar_Villain_Back.png",
+      "mover": "imgs/movers/Jafarmover.png",
+      "board": "imgs/boards/Jafarrealm.jpg",
       "set": "The Worst Takes It All",
       "mainColor": "#1a1812",
       "objective": "Start your turn with the Magic Lamp at Sultan's Palace and Genie under your control",
@@ -355,6 +472,41 @@
         {
           "stratName": "N/A"
         }
+      ],
+      "fateCards": [
+        { "fateImg": "imgs/cards/jafar/fate/Abu.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Aladdin.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Carpet.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Crushing_Blow.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Genie.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Narrow_Escape.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Princess_Jasmine.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Rajah.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Sultan.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Treachery.png" },
+        { "fateImg": "imgs/cards/jafar/fate/Wish.png" }
+      ],
+      "villainCards": [
+        { "villainImg": "imgs/cards/jafar/villain/A_Snake_Am_I.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Deception.png" },
+        {
+          "villainImg": "imgs/cards/jafar/villain/Gazeem.png"
+        },
+        { "villainImg": "imgs/cards/jafar/villain/Giant_Hourglass.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Hypnotize.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Iago.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Magic_Lamp.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Manipulation.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Necessary_Sacrifice.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Palace_Guard.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Razoul.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Scarab_Pendant.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Scimitar.png" },
+        {
+          "villainImg": "imgs/cards/jafar/villain/Scrying.png"
+        },
+        { "villainImg": "imgs/cards/jafar/villain/Snake_Staff.png" },
+        { "villainImg": "imgs/cards/jafar/villain/Sorcerous_Power.png" }
       ]
     },
 

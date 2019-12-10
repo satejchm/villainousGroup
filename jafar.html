@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jafar</title>
+    <link rel="icon" href="imgs/Logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">
+        <img src="imgs/Logo.png" />
+      </a>
+      <a href="index.html">Home</a>
+      <a href="villains.html">Villains</a>
+      <a href="FAQ.html">FAQ</a>
+    </nav>
+    <section style="background-color: #1a1812" class="villains-wrapper">
+      <div class="top-info">
+        <h1 class="villainName">{{ Villains[7].name }}</h1>
+      </div>
+
+      <div class="queen-info-wrapper">
+        <div class="card-image">
+          <img v-bind:src="Villains[7].img" alt="card front" />
+        </div>
+        <div class="card-moves-image">
+          <img class="boardImg" v-bind:src="Villains[7].board" alt="board" />
+        </div>
+      </div>
+
+      <div class="how-to-play-wrapper">
+        <div class="card-image">
+          <img class="moverImg" v-bind:src="Villains[7].mover" alt="mover" />
+        </div>
+        <div class="how-to-play-text">
+          <h1 class="villainText">HOW TO PLAY THIS VILLAIN</h1>
+          <li><i>{{Villains[7].quote}}</i></li>
+          <li>Objective: <b>{{Villains[7].objective}}</b></li>
+          <li>Strategy: {{Villains[7].strategies[0].stratName}}</li>
+          <li><b>Strengths:</b> {{Villains[7].strengths[0].strengthName}}</li>
+          <li><b>Weaknesses:</b> {{Villains[7].weaknesses[0].weaknessName}}</li>
+        </div>
+      </div>
+
+      <div class="top-info">
+        <h1>Fate</h1>
+      </div>
+      <div class="fate-info-wrapper">
+        <div v-for="fateCard in Villains[7].fateCards">
+          <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg" />
+        </div>
+      </div>
+
+      <div class="top-info">
+        <h1>VILLAIN</h1>
+      </div>
+      <div class="fate-info-wrapper">
+        <div v-for="villainCard in Villains[7].villainCards">
+          <img
+            class="card-image"
+            v-bind:src="villainCard.villainImg"
+            alt="villain img"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3>Copywrite Stuffs</h3>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
