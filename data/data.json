@@ -178,7 +178,7 @@
         { "villainImg": "imgs/cards/hades/villain/Cerberus.png" },
         { "villainImg": "imgs/cards/hades/villain/Chariot.png" },
         { "villainImg": "imgs/cards/hades/villain/Eye_of_the_Fates.png" },
-        { "villainImg": "imgs/cards/hades/villain/Get_ready_to_Rumble.png" },
+        { "villainImg": "imgs/cards/hades/villain/Get_Ready_to_Rumble.png" },
         { "villainImg": "imgs/cards/hades/villain/Hydra.png" },
         { "villainImg": "imgs/cards/hades/villain/Hydros.png" },
         { "villainImg": "imgs/cards/hades/villain/I_Rule.png" },
@@ -254,7 +254,7 @@
       ]
     },
     {
-      "name": "Dr. Facilier",
+      "name": "Dr Facilier",
       "link": "drFacilier.html",
       "img": "imgs/villains/Dr_Facilier.png",
       "imgBack": "imgs/backs/Dr_Facilier_Villain_Back.png",

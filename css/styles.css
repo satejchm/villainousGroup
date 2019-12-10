@@ -114,6 +114,9 @@ footer {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+    .default-container .top-info h1 {
+      margin-left: 80px;
+      margin-top: 80px; }
   .default-container .villains-wrapper {
     min-height: 100%;
     width: 100%;
