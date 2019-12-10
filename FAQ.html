@@ -16,41 +16,130 @@
       <a href="villains.html">Villains</a>
       <a href="FAQ.html">FAQ</a>
     </nav>
-    <section class="frequently-asked-container">
+    <section class="frequently-asked-container villains-wrapper">
       <div class="top-info">
         <h1>Frequently Asked Questions</h1>
-        <input class="searchBar" placeholder=" Search..."type="text" name="questin search"><br>
+        <!-- <input class="searchBar" placeholder=" Search..."type="text" name="questin search"><br> -->
       </div>
 
-      <div class="question-wrapper">
-            <div class="question"><h2>Question:</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam provident reiciendis pariatur perferendis fuga modi ratione, exercitationem optio quasi repellat fugiat eius libero quia! Ab quaerat sit quo nam error.</p></div>
+      <div class="question-wrapper" v-for:question in questions>
+            <div class="question">
+              <h2>{{FAQ[0].question}}</h2>
+              <li>{{FAQ[0].answer}}</li>
+            </div>
       </div>
 
-      <div class="question-wrapper">
-        <div class="question"><h2>Question:</h2><p>Maxime alias ab, veniam quasi dignissimos mollitia sequi, voluptatum doloremque deleniti eos animi temporibus iusto in dolore aliquam blanditiis vitae iste dolor?</p></div>
+      <div class="question-wrapper" v-for:question in questions>
+          <div class="question">
+            <h2>{{FAQ[1].question}}</h2>
+            <li>{{FAQ[1].answer}}</li>
+          </div>
+    </div>
+
+    <div class="question-wrapper" v-for:question in questions>
+        <div class="question">
+          <h2>{{FAQ[2].question}}</h2>
+          <li>{{FAQ[2].answer}}</li>
+        </div>
   </div>
 
-  <div class="question-wrapper">
-    <div class="question"><h2>Question:</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam provident reiciendis pariatur perferendis fuga modi ratione</p></div>
+  <div class="question-wrapper" v-for:question in questions>
+      <div class="question">
+        <h2>{{FAQ[3].question}}</h2>
+        <li>{{FAQ[3].answer}}</li>
+      </div>
 </div>
 
-<div class="question-wrapper">
-    <div class="question"><h2>Question:</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet alias corrupti fugiat tenetur eos, porro quas enim. Culpa alias necessitatibus, beatae reprehenderit explicabo modi sed corporis distinctio dolore quis nostrum.</p></div>
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[4].question}}</h2>
+      <li>{{FAQ[4].answer}}</li>
+    </div>
 </div>
 
-  <div class="question-wrapper">
-    <div class="question"><h2>Question:</h2><p>Lorem ipsum dolor sit, Consequuntur!</p></div>
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[5].question}}</h2>
+      <li>{{FAQ[5].answer}}</li>
+    </div>
 </div>
 
-<div class="question-wrapper">
-    <div class="question"><h2>Question:</h2><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam provident reiciendis pariatur perferendis fuga modi ratione, exercitationem optio quasi repellat fugiat eius libero quia! Ab quaerat sit quo nam error.</p></div>
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[6].question}}</h2>
+      <li>{{FAQ[6].answer}}</li>
+    </div>
 </div>
 
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[7].question}}</h2>
+      <li>{{FAQ[7].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[8].question}}</h2>
+      <li>{{FAQ[8].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[9].question}}</h2>
+      <li>{{FAQ[9].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[10].question}}</h2>
+      <li>{{FAQ[10].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[11].question}}</h2>
+      <li>{{FAQ[11].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[12].question}}</h2>
+      <li>{{FAQ[12].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[13].question}}</h2>
+      <li>{{FAQ[13].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[14].question}}</h2>
+      <li>{{FAQ[14].answer}}</li>
+    </div>
+</div>
+
+<div class="question-wrapper" v-for:question in questions>
+    <div class="question">
+      <h2>{{FAQ[15].question}}</h2>
+      <li>{{FAQ[15].answer}}</li>
+    </div>
+</div>
     </section>
     <footer>
       <h3>Copywrite Stuffs</h3>
     </footer> 
 
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
