@@ -1,0 +1,30 @@
+/* adding an animation here */
+.animationShow {
+  animation: cardShow 2s;
+}
+
+.animationHide {
+  animation: cardHide 2s;
+}
+
+@keyframes cardHide {
+  from {
+    opacity: 1;
+    margin-top: 0;
+  }
+  to {
+    opacity: 0;
+    margin-top: -500px;
+  }
+}
+
+@keyframes cardShow {
+  from {
+    opacity: 0;
+    margin-top: -500px;
+  }
+  to {
+    opacity: 1;
+    margin-top: 0;
+  }
+}

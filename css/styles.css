@@ -355,3 +355,44 @@ footer {
       .frequently-asked-container .question-wrapper .question p {
         font-size: 25px;
         font-family: helvetica; }
+
+/* adding an animation here */
+.animationShow {
+  -webkit-animation: cardShow 2s;
+  animation: cardShow 2s; }
+
+.animationHide {
+  -webkit-animation: cardHide 2s;
+  animation: cardHide 2s; }
+
+@-webkit-keyframes cardHide {
+  from {
+    opacity: 1;
+    margin-top: 0; }
+  to {
+    opacity: 0;
+    margin-top: -500px; } }
+
+@keyframes cardHide {
+  from {
+    opacity: 1;
+    margin-top: 0; }
+  to {
+    opacity: 0;
+    margin-top: -500px; } }
+
+@-webkit-keyframes cardShow {
+  from {
+    opacity: 0;
+    margin-top: -500px; }
+  to {
+    opacity: 1;
+    margin-top: 0; } }
+
+@keyframes cardShow {
+  from {
+    opacity: 0;
+    margin-top: -500px; }
+  to {
+    opacity: 1;
+    margin-top: 0; } }

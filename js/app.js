@@ -43,14 +43,13 @@ new Vue({
 
       if (villainWrapper.style.display === "none") {
         villainWrapper.style.display = "flex";
-        villainWrapper.classList.add = "animationShow";
-        villainWrapper.classList.remove = "animationHide";
+        villainWrapper.classList.add = "animationHide";
 
         console.log("I should show");
       } else {
         villainWrapper.style.display = "none";
-        villainWrapper.classList.add = "animationHide";
-        villainWrapper.classList.remove = "animationShow";
+        villainWrapper.classList.add = "animationShow";
+
         console.log("I should hide");
       }
     }

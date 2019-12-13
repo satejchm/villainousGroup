@@ -46,8 +46,11 @@
       </div>
 
       <div class="top-info">
-        <h1 v-on:click="hideFate">Fate -click me-</h1>
+        <h1 v-on:click="hideFate">
+          Fate
+        </h1>
       </div>
+
       <div class="fate-info-wrapper fateCards">
         <div v-for="fateCard in Villains[2].fateCards">
           <img class="card-image" v-bind:src="fateCard.fateImg" alt="fateImg" />
@@ -55,7 +58,7 @@
       </div>
 
       <div class="top-info">
-        <h1 v-on:click="hideVillain">VILLAIN -click me-</h1>
+        <h1 v-on:click="hideVillain">VILLAIN</h1>
       </div>
       <div class="fate-info-wrapper villainCards">
         <div v-for="villainCard in Villains[2].villainCards">

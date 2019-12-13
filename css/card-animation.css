@@ -1,0 +1,48 @@
+/* adding an animation here */
+.animationShow {
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease, -webkit-transform 0.3s ease;
+  opacity: 1; }
+
+.animationHide {
+  -webkit-transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.3s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease, -webkit-transform 0.3s ease;
+  opacity: 1; }
+
+@-webkit-keyframes cardHide {
+  from {
+    opacity: 1;
+    margin-top: 0; }
+  to {
+    opacity: 0;
+    margin-top: -500px; } }
+
+@keyframes cardHide {
+  from {
+    opacity: 1;
+    margin-top: 0; }
+  to {
+    opacity: 0;
+    margin-top: -500px; } }
+
+@-webkit-keyframes cardShow {
+  from {
+    opacity: 0;
+    margin-top: -500px; }
+  to {
+    opacity: 1;
+    margin-top: 0; } }
+
+@keyframes cardShow {
+  from {
+    opacity: 0;
+    margin-top: -500px; }
+  to {
+    opacity: 1;
+    margin-top: 0; } }
